@@ -24,6 +24,10 @@ This site facilitates easy interaction with the club and fellow fans through soc
 - [Structure](#structure)
   - [Mobile-First Design](#mobile-first-design)
   - [Responsive Breakpoints](#responsive-breakpoints)
+- [Wireframes](#wireframes)
+    - [Desktop Wireframe](#desktop-wireframe)
+    - [Tablet Wireframe](#tablet-wireframe)
+    - [Phone Wireframe](#phone-wireframe)
 
 # UX
 
@@ -107,3 +111,17 @@ Responsive breakpoints will be defined based on the updated [Bootstrap](https://
 | large       | ≥992px     |
 | x-large     | ≥1200px    |
 | xx-large    | ≥1400px    |
+
+# Wireframes
+
+For "Chelsea Pride," I utilized Balsamiq to create the wireframes. The process began with designing the mobile version, ensuring that the layout and content are optimized for smaller screens. Following the mobile-first approach, the design was then scaled up to accommodate tablet and desktop views.
+
+Given the goal to provide concise yet impactful information to the user, the website is structured as a single-page layout. This design choice facilitates a smooth user journey, allowing visitors to seamlessly scroll through content and easily reach the contact form and club details. The navigation bar also provides direct access to different sections for enhanced user experience.
+
+Below are the wireframes for "Chelsea Pride" across different devices:
+
+### [Desktop Wireframe](wireframes/Wireframe-Desktop.png "Desktop wireframe")
+
+### [Tablet Wireframe](wireframes/Wireframe-Tablet.png "Tablet wireframe")
+
+### [Phone Wireframe](wireframes/Wireframe-phnne.png "Phone wireframe")
