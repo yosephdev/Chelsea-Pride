@@ -1,39 +1,52 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+# Chelsea Pride
 
-Welcome,
+# Goal for this Project
 
-This is the Code Institute student template for Codeanywhere. If you are using Gitpod then you need [this template](https://github.com/Code-Institute-Org/gitpod-full-template) instead.  We have preinstalled all of the tools you need to get started. It's perfectly ok to use this template as the basis for your project submissions.
+Welcome to Chelsea Pride, a vibrant hub for Chelsea Football Club enthusiasts. This website is a dedicated space for fans of all ages, offering the latest in club news, player insights, and historical retrospectives.
 
-You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Codeanywhere and the extensions we use. Some of this information has been updated since the video content was created. The last update to this file was: **August 30th, 2023**
+This site facilitates easy interaction with the club and fellow fans through social media and a direct contact form, making it simple and accessible for everyone to stay connected with the Chelsea community.
 
-## Codeanywhere Reminders
+# Table of Contents
 
-To run a frontend (HTML, CSS, Javascript only) application in Codeanywhere, in the terminal, type:
+- [Chelsea Pride](#chelsea-pride)
+- [Goal for this Project](#goal-for-this-project)
+- [Table of Contents](#table-of-contents)
+- [UX](#ux)
+- [User Goals](#user-goals)
+- [User Stories](#user-stories)
+- [Site Owner's Goals](#site-owners-goals)
+- [Requirements](#requirements)
+- [Expectations](#expectations)
 
-`python3 -m http.server`
+# UX
 
-A button should appear to click: _Open Preview_ or _Open Browser_.
+# User Goals
 
-To run a frontend (HTML, CSS, Javascript only) application in Codeanywhere with no-cache, you can use this alias for `python3 -m http.server`.
+- Access the latest Chelsea FC news, match results, and player updates.
+- Engage with other Chelsea supporters and participate in fan discussions.
+- Learn about Chelsea FC's history and legendary players.
 
-`http_server`
+# User Stories
 
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
+- I want up-to-date match results and analyses to follow the team's performance.  
+- I need to learn about the club's history to feel more connected.  
+- I wish to engage in discussions and polls with fellow fans.
 
-A button should appear to click: _Open Preview_ or _Open Browser_.
+# Site Owner's Goals
 
-In Codeanywhere you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
+- Provide all-inclusive information on Chelsea FC, from news to history.  
+- Create a space for fans to connect and share their passion.
+- Maintain an intuitive, accessible website for all fans.
 
-To log into the Heroku toolbelt CLI:
+# Requirements
 
-1. Log in to your Heroku account and go to _Account Settings_ in the menu under your avatar.
-2. Scroll down to the _API Key_ and click _Reveal_
-3. Copy the key
-4. In Codeanywhere, from the terminal, run `heroku_config`
-5. Paste in your API key when asked
+- Regularly update the site with the latest Chelsea FC news and match info.
+- Include interactive elements like forums and polls.
+- Feature a section dedicated to the club's rich history.
 
-You can now use the `heroku` CLI program - try running `heroku apps` to confirm it works. This API key is unique and private to you so do not share it. If you accidentally make it public then you can create a new one with _Regenerate API Key_.
+# Expectations
 
----
-
-Happy coding!
+- Users expect an interactive experience with fresh, engaging content.
+- The site should be a trusted source for accurate Chelsea FC information.
+- Ensure the website is user-friendly and accessible across devices.
+  
