@@ -29,6 +29,8 @@ This site facilitates easy interaction with the club and fellow fans through soc
     - [Tablet Wireframe](#tablet-wireframe)
     - [Phone Wireframe](#phone-wireframe)
 - [Features](#features)
+- [Planned Features for Chelsea Pride](#planned-features-for-chelsea-pride)
+  - [Proposed Features](#proposed-features)
 
 # UX
 
@@ -129,3 +131,30 @@ Below are the wireframes for "Chelsea Pride" across different devices:
 
 # Features
 
+# Planned Features for Chelsea Pride
+
+The following features are proposed for development in the Chelsea Pride website. Each feature will be implemented systematically, with commits corresponding to the completion of each task.
+
+## Proposed Features
+
+1. **Responsive Navbar**: Design and implement a navigation bar with links to different sections (News & Updates, Team & History, Fan Zone, Contact Us), enabling smooth scrolling and easy navigation within the single-page layout.
+
+2. **News & Updates Section**: Create a section for regularly updated content providing the latest Chelsea FC news, match updates, and club announcements.
+
+3. **Team & History Section**: Develop a section showcasing the Chelsea team and club history, including player profiles and historical achievements.
+
+4. **Fan Zone**: Implement an interactive area for fan engagement, featuring discussions, polls, and user-generated content.
+
+5. **Contact Us Section**: Include a contact form and social media links for easy communication with the site administrators or the club.
+
+6. **Mobile-First Design**: Ensure the website is optimized for mobile devices, providing a seamless experience on smartphones and tablets.
+
+7. **Dynamic Content Display**: Integrate multimedia elements like images, videos, and live social media feeds for a visually engaging user experience.
+
+8. **Interactive Elements**: Add polls, quizzes, and clickable news items to enhance user interaction and engagement.
+
+9. **Accessibility Features**: Design the website with accessibility in mind, using high-contrast colors and readable fonts to cater to all users.
+
+10. **Footer Section**: Design a footer containing additional navigation links, copyright information, and other essential details.
+
+Each feature will be developed in stages, with regular commits to track progress and ensure quality.
