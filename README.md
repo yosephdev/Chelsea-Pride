@@ -17,6 +17,10 @@ This site facilitates easy interaction with the club and fellow fans through soc
 - [Site Owner's Goals](#site-owners-goals)
 - [Requirements](#requirements)
 - [Expectations](#expectations)
+- [Design Choices](#design-choices)
+  - [Fonts](#fonts)
+  - [Icons](#icons)
+  - [Colors](#colors)
 
 # UX
 
@@ -49,4 +53,34 @@ This site facilitates easy interaction with the club and fellow fans through soc
 - Users expect an interactive experience with fresh, engaging content.
 - The site should be a trusted source for accurate Chelsea FC information.
 - Ensure the website is user-friendly and accessible across devices.
+
+# Design Choices
+
+## Fonts
+
+For "Chelsea Pride," I have chosen distinct and complementary fonts from Google Fonts to enhance the website's readability and aesthetic appeal.
+
+- **Main Text: Lato** - [Lato](https://fonts.google.com/ "Google Fonts") is a sans-serif font known for its clarity and modern feel. It provides a clean, approachable look, making it perfect for the main content, where legibility is key.
+
+- **Headers and Navigation Bar: Raleway** - To create a clear distinction between the main text and headers, I've selected [Raleway](https://fonts.google.com/ "Google Fonts"). This font, with its elegant and slightly more stylized characters, complements Lato while ensuring that headers and navigation elements are noticeable and appealing.
+
+## Icons
+
+The website will incorporate icons from the [Font Awesome library](https://fontawesome.com/ "Font Awesome") Font Awesome library. These icons will be used intuitively, ensuring they are self-explanatory. Key areas for their use include social media links, contact links, and a hamburger menu icon for navigation on mobile devices. All icons will be styled to align with the overall design of the website.
+
+## Colors
+
+For the color scheme, I've used [Colors.co](https://colors.co/ "Colors") to generate a palette that resonates with Chelsea FC's identity while ensuring good contrast and visual appeal.
+
+![Colour Pallet](wireframes/color-palette.png)
+
+- #034694 - This colour will be used in headers and key interface elements.
+
+- ##C0C0C0 - This color will be used for secondary elements like borders, buttons, and icon backgrounds to provide a modern, sophisticated look.
+
+- ##F5F5F5 - This color will be used for the website's background, ensuring that the content stands out without causing strain to the eyes.
+
+- ##383838 - This color will be use for the main text, providing excellent readability against the off-white background while softening the contrast compared to pure black.
+
+- ##D4AF37 - This color will be used for highlighting important elements such as active menu items or call-to-action buttons, adding a touch of elegance and importance.
   
