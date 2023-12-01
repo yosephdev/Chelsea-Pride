@@ -28,6 +28,7 @@ This site facilitates easy interaction with the club and fellow fans through soc
     - [Desktop Wireframe](#desktop-wireframe)
     - [Tablet Wireframe](#tablet-wireframe)
     - [Phone Wireframe](#phone-wireframe)
+- [Features](#features)
 
 # UX
 
@@ -125,3 +126,6 @@ Below are the wireframes for "Chelsea Pride" across different devices:
 ### [Tablet Wireframe](wireframes/Wireframe-Tablet.png "Tablet wireframe")
 
 ### [Phone Wireframe](wireframes/Wireframe-phnne.png "Phone wireframe")
+
+# Features
+
