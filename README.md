@@ -21,6 +21,9 @@ This site facilitates easy interaction with the club and fellow fans through soc
   - [Fonts](#fonts)
   - [Icons](#icons)
   - [Colors](#colors)
+- [Structure](#structure)
+  - [Mobile-First Design](#mobile-first-design)
+  - [Responsive Breakpoints](#responsive-breakpoints)
 
 # UX
 
@@ -83,4 +86,24 @@ For the color scheme, I've used [Colors.co](https://colors.co/ "Colors") to gene
 - ##383838 - This color will be use for the main text, providing excellent readability against the off-white background while softening the contrast compared to pure black.
 
 - ##D4AF37 - This color will be used for highlighting important elements such as active menu items or call-to-action buttons, adding a touch of elegance and importance.
-  
+
+# Structure
+
+The website will be developed with a 'mobile-first' approach, prioritizing optimization for smaller screens before scaling up to larger devices. This approach aligns with modern web design practices, ensuring a seamless user experience across all devices.
+
+## Mobile-First Design
+
+- **Base Size**: The development will start with styling for the iPhone 5/SE, which represents one of the smallest screen sizes (320px) commonly in use. This ensures that the design remains functional and visually appealing on smaller screens.
+
+## Responsive Breakpoints
+
+Responsive breakpoints will be defined based on the updated [Bootstrap](https://getbootstrap.com/docs/5.0/layout/breakpoints/) Bootstrap breakpoints, which are widely recognized and align with contemporary device standards. These breakpoints allow the layout to adapt dynamically to different screen sizes, ensuring optimal readability and usability.
+
+| Screen Size | Breakpoint |
+|-------------|------------|
+| x-small     | <576px     |
+| small       | ≥576px     |
+| medium      | ≥768px     |
+| large       | ≥992px     |
+| x-large     | ≥1200px    |
+| xx-large    | ≥1400px    |
