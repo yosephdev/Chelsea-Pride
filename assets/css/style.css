@@ -21,11 +21,20 @@ h1, h2, h3, h4, h5, h6, .navbar {
 
 /* Header Styles */
 header {
-    background-color: #034694; /* Chelsea Blue for brand consistency */
-    padding: 1rem; /* Adds space around header content */
-    text-align: center; /* Centers header content */
+    background-color: #034694; /* Chelsea Blue for brand consistency */       
     color: white; /* Contrast color for readability */
 }
+
+.header-content {
+    display: flex;
+    align-items: center;
+    padding: 1rem; /* Adds space around header content */
+}
+
+.logo-container {
+    margin-right: 2rem; /* Adds some space between the logo and navigation */
+}
+
 
 /* Main Content Styles */
 main {
