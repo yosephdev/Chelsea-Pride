@@ -12,7 +12,7 @@ body {
     display: flex;
     flex-direction: column; /* Aligns the content in a column layout */
     min-height: 100vh; /* Ensures the body takes up at least the viewport height */
-    font-family: Arial, sans-serif; /* Default font for consistency */
+    font-family: 'Lato', sans-serif; /* Default font for consistency */
 }
 
 /* Header Styles */
