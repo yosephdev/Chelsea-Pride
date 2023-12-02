@@ -31,6 +31,11 @@ header {
     box-shadow: 0 2px 2px #3a3a3a; 
 }
 
+header a {
+    text-decoration: none;
+    color: inherit;
+}
+
 
 .logo-container {
     margin-right: 2rem; /* Adds some space between the logo and navigation */
