@@ -5,42 +5,29 @@
 * {
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
-    /* Ensures padding doesn't affect overall width */
+    box-sizing: border-box; /* Ensures padding doesn't affect overall width */
 }
 
 body {
     display: flex;
-    flex-direction: column;
-    /* Aligns the content in a column layout */
-    min-height: 100vh;
-    /* Ensures the body takes up at least the viewport height */
-    font-family: 'Lato', sans-serif;
-    /* Default font for consistency */
+    flex-direction: column; /* Aligns the content in a column layout */
+    min-height: 100vh; /* Ensures the body takes up at least the viewport height */
+    font-family: 'Lato', sans-serif; /* Default font for consistency */
 }
 
-h1,
-h2,
-h3,
-h4,
-h5,
-h6,
-.navbar {
+h1, h2, h3, h4, h5, h6 {
     font-family: 'Raleway', sans-serif;
 }
 
 /* Header Styles */
 header {
-    background-color: #034694;
-    /* Chelsea Blue for brand consistency */
-    color: white;
-    /* Contrast color for readability */
+    background-color: #034694; /* Chelsea Blue for brand consistency */       
+    color: white; /* Contrast color for readability */
     padding: 0 1rem;
     position: fixed;
-    z-index: 99;
-    top: 0;
+    z-index: 99;    
     width: 100%;
-    box-shadow: 0 2px 2px #3a3a3a;
+    box-shadow: 0 2px 2px #3a3a3a; 
     display: flex;
     justify-content: space-between;
     align-items: baseline;
@@ -57,7 +44,7 @@ header a {
     list-style-type: none;
 }
 
-#menu>li {
+#menu > li {
     margin-bottom: 1em;
 }
 
@@ -98,22 +85,15 @@ nav {
 
 /* Main Content Styles */
 main {
-    background-color: #F5F5F5;
-    /* Off-White for a light and clean background */
-    flex-grow: 1;
-    /* Allows main content to grow and fill available space */
-    padding: 2rem;
-    /* Adds space around main content */
+    background-color: #F5F5F5; /* Off-White for a light and clean background */
+    flex-grow: 1; /* Allows main content to grow and fill available space */
+    padding: 2rem; /* Adds space around main content */
 }
 
 /* Footer Styles */
 footer {
-    background-color: #383838;
-    /* Dark Grey for a subtle footer */
-    color: white;
-    /* Contrast color for readability */
-    padding: 1rem;
-    /* Adds space around footer content */
-    text-align: center;
-    /* Centers footer content */
+    background-color: #383838; /* Dark Grey for a subtle footer */
+    color: white; /* Contrast color for readability */
+    padding: 1rem; /* Adds space around footer content */
+    text-align: center; /* Centers footer content */
 }
