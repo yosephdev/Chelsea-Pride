@@ -61,7 +61,7 @@ header a {
 /* Navbar styles with dropdown toggles */
 nav {
     position: absolute;
-    background-color: #ffff;
+    background-color: #034694;
     width: 100%;
     left: 0;
     padding: 0 1rem;
@@ -80,6 +80,7 @@ nav {
 
 .nav-toggle-label {
     font-size: 2rem;
+    display: block;
 }
 
 
@@ -97,4 +98,30 @@ footer {
     color: white; /* Contrast color for readability */
     padding: 1rem; /* Adds space around footer content */
     text-align: center; /* Centers footer content */
+}
+
+/* Media query: tablets and larger (768px and up) */
+@media screen and (min-width: 768px) {
+    /* Header */
+    nav {
+        display: block;
+        position: relative;
+        box-shadow: none;
+        width: fit-content;
+        padding-right: 1rem;
+    }
+
+    #menu {
+        display: flex;
+    }
+
+    #menu > li {
+        padding-left: 1rem;
+    }
+
+    .nav-toggle-label {
+        display: none;
+    }
+
+
 }
