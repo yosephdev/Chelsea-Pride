@@ -5,29 +5,40 @@
 * {
     margin: 0;
     padding: 0;
-    box-sizing: border-box; /* Ensures padding doesn't affect overall width */
+    box-sizing: border-box;
+    /* Ensures padding doesn't affect overall width */
 }
 
 body {
     display: flex;
-    flex-direction: column; /* Aligns the content in a column layout */
-    min-height: 100vh; /* Ensures the body takes up at least the viewport height */
-    font-family: 'Lato', sans-serif; /* Default font for consistency */
+    flex-direction: column;
+    /* Aligns the content in a column layout */
+    min-height: 100vh;
+    /* Ensures the body takes up at least the viewport height */
+    font-family: 'Lato', sans-serif;
+    /* Default font for consistency */
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
     font-family: 'Raleway', sans-serif;
 }
 
 /* Header Styles */
 header {
-    background-color: #034694; /* Chelsea Blue for brand consistency */       
-    color: white; /* Contrast color for readability */
+    background-color: #034694;
+    /* Chelsea Blue for brand consistency */
+    color: white;
+    /* Contrast color for readability */
     padding: 0 1rem;
     position: fixed;
-    z-index: 99;    
+    z-index: 99;
     width: 100%;
-    box-shadow: 0 2px 2px #3a3a3a; 
+    box-shadow: 0 2px 2px #3a3a3a;
     display: flex;
     justify-content: space-between;
     align-items: baseline;
@@ -44,18 +55,18 @@ header a {
     list-style-type: none;
 }
 
-#menu > li {
+#menu>li {
     margin-bottom: 1em;
 }
 
 .active {
-    border-bottom: 1px solid #3a3a3a;
+    border-bottom: 1px solid #C0C0C0;
 }
 
 .logo-container img {
-    height: auto; 
-    width: 200px;  
-    max-height: 150px;  
+    height: auto;
+    width: 200px;
+    max-height: 150px;
 }
 
 
@@ -87,22 +98,30 @@ nav {
 
 /* Main Content Styles */
 main {
-    background-color: #F5F5F5; /* Off-White for a light and clean background */
-    flex-grow: 1; /* Allows main content to grow and fill available space */
-    padding: 2rem; /* Adds space around main content */
+    background-color: #F5F5F5;
+    /* Off-White for a light and clean background */
+    flex-grow: 1;
+    /* Allows main content to grow and fill available space */
+    padding: 2rem;
+    /* Adds space around main content */
     margin-top: 47px;
 }
 
 /* Footer Styles */
 footer {
-    background-color: #383838; /* Dark Grey for a subtle footer */
-    color: white; /* Contrast color for readability */
-    padding: 1rem; /* Adds space around footer content */
-    text-align: center; /* Centers footer content */
+    background-color: #383838;
+    /* Dark Grey for a subtle footer */
+    color: white;
+    /* Contrast color for readability */
+    padding: 1rem;
+    /* Adds space around footer content */
+    text-align: center;
+    /* Centers footer content */
 }
 
 /* Media query: tablets and larger (768px and up) */
 @media screen and (min-width: 768px) {
+
     /* Header */
     nav {
         display: block;
@@ -116,7 +135,7 @@ footer {
         display: flex;
     }
 
-    #menu > li {
+    #menu>li {
         padding-left: 1rem;
     }
 
@@ -124,10 +143,16 @@ footer {
         display: none;
     }
 
-    .logo {
-        width: 150px;  /* Smaller width for smaller screens */
-        max-height: 100px;  /* Correspondingly smaller max height */
+    .logo-container img {
+        width: 150px;
+        max-height: 100px;
+        line-height: 75px;
+        margin: 0 0.5rem;
     }
 
-
+    /* Main content */
+    main {
+        /* Push main content down to accommodate larger header */
+        margin-top: 79px;
+    }
 }
