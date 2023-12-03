@@ -88,6 +88,7 @@ main {
     background-color: #F5F5F5; /* Off-White for a light and clean background */
     flex-grow: 1; /* Allows main content to grow and fill available space */
     padding: 2rem; /* Adds space around main content */
+    margin-top: 47px;
 }
 
 /* Footer Styles */
