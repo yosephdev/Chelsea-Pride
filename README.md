@@ -84,7 +84,7 @@ For the color scheme, I've used [Colors.co](https://colors.co/ "Colors") to gene
 
 ![Colour Pallet](wireframes/color-palette.png)
 
-- #034694 - This colour will be used in headers and key interface elements.
+- ##034694 - This colour will be used in headers and key interface elements.
 
 - ##C0C0C0 - This color will be used for secondary elements like borders, buttons, and icon backgrounds to provide a modern, sophisticated look.
 
