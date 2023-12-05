@@ -14,7 +14,8 @@ body {
     min-height: 100vh;
     font-family: 'Lato', sans-serif;
     overflow-x: hidden;
-    scroll-behavior: smooth;
+    scroll-behavior: smooth;  
+    background-color: #F5F5F5;
 }
 
 h1,
@@ -98,7 +99,7 @@ nav {
 #menu>li>a.active,
 #menu>li>a:hover {
     background-color: #034694;
-    color: #ffd700;
+    /* color: #ffd700; */
     border-bottom: 2px solid #ffd700;
 }
 
@@ -145,11 +146,74 @@ nav {
 
 /* Main Content Styles */
 main {
-    background-color: #F5F5F5;
+    background-color: #F5F5F5; /* Off-white for a light and clean background */
+    color: #383838; /* Dark grey for the main text, offering readability */
     flex-grow: 1;
-    padding: 2rem;
-    margin-top: 60px;
-    /* Adjust as per header height */
+    padding: 1rem;
+    margin-top: 60px; /* Space at the top to account for fixed header */
+}
+
+.main-banner {
+    background-image: url('../images/banner-image-black.jpg');
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 100px 20px; /* Adjust padding as needed */
+}
+
+.main-banner h1 {   
+    color: #F5F5F5; /* Light color for the title */
+    font-size: 32px; /* Larger font size for main title */
+    z-index: 2; /* Ensures the text is above the pseudo-element */   
+}
+
+.main-banner::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background: rgba(0, 0, 0, 0.5); /* Dark overlay for readability */
+    z-index: 1; /* Puts the overlay above the image but below the text */
+}
+
+
+/* You might also style other elements within the main section, like headers and buttons, to use the color scheme: */
+main h1, main h2, main h3, main h4, main h5, main h6 {
+    color: #034694; /* Chelsea Blue for headers */
+}
+
+main a, .button, .btn {
+    background-color: #D4AF37; /* Metallic Gold for call-to-action buttons */
+    color: #ffffff; /* White text on buttons for contrast */
+    border: none; /* Assuming you don't want borders, but adjust as needed */
+    padding: 10px 20px; /* Example padding, adjust as needed */
+    text-transform: uppercase; /* Optional style for buttons */
+    border-radius: 4px; /* Optional rounded corners for buttons */
+    transition: background-color 0.3s ease; /* Smooth transition for hover effect */
+}
+
+main a:hover, .button:hover, .btn:hover {
+    background-color: #b3962f; /* Darker shade of gold for hover effect */
+}
+
+
+/* Styles for the News & Updates Section */
+
+.news-section {
+    background-color: #F5F5F5; 
+    margin: 10px 0;
+}
+
+.news-section h2 {
+    font-size: 24px; 
+    color: #034694; /* Chelsea Blue for section headers */
+    margin-bottom: 20px; /* Space below the h2 heading */    
 }
 
 /* Footer Styles */
@@ -162,7 +226,7 @@ footer {
 
 /* Media Queries */
 
-/* x-small to medium */
+/* Medium devices (tablets, 768px and up) */
 
 @media screen and (max-width: 767px) {
 
@@ -207,9 +271,13 @@ footer {
     main {
         margin-top: 80px;
     }
+
+    .main-banner h1 {
+        font-size: 36px; /* Slightly larger font for larger devices */
+    }
 }
 
-/* medium to large */
+/* Large devices (desktops, 992px and up) */
 
 @media screen and (min-width: 768px) {
 
@@ -263,9 +331,17 @@ footer {
     main {
         margin-top: 100px;
     }
+
+    .main-banner {
+        padding: 150px 20px; 
+    }
+
+    .main-banner h1 {
+        font-size: 40px; 
+    }
 }
 
-/* x-large and above */
+/* Extra large devices (large desktops, 1200px and up) */
 
 @media screen and (min-width: 1200px) {
     .container {
@@ -282,5 +358,9 @@ footer {
 
     .social-icons {
         display: flex;
+    }
+
+    .main-banner h1 {
+        font-size: 48px; 
     }
 }
