@@ -31,6 +31,11 @@ This site facilitates easy interaction with the club and fellow fans through soc
 - [Features](#features)
 - [Planned Features for Chelsea Pride](#planned-features-for-chelsea-pride)
   - [Proposed Features](#proposed-features)
+  - [Existing Features](#existing-features)
+    - [Navigation Bar](#navigation-bar)
+      - [Desktop (\>=992px)](#desktop-992px)
+      - [Small devices (\<992px)](#small-devices-992px)
+      - [Enhancements and Responsive Behavior](#enhancements-and-responsive-behavior)
 
 # UX
 
@@ -63,6 +68,12 @@ This site facilitates easy interaction with the club and fellow fans through soc
 - Users expect an interactive experience with fresh, engaging content.
 - The site should be a trusted source for accurate Chelsea FC information.
 - Ensure the website is user-friendly and accessible across devices.
+
+\
+&nbsp;
+[Back to Top](#table-of-contents)
+\
+&nbsp;
 
 # Design Choices
 
@@ -115,6 +126,12 @@ Responsive breakpoints will be defined based on the updated [Bootstrap](https://
 | x-large     | ≥1200px    |
 | xx-large    | ≥1400px    |
 
+\
+&nbsp;
+[Back to Top](#table-of-contents)
+\
+&nbsp;
+
 # Wireframes
 
 For "Chelsea Pride," I utilized Balsamiq to create the wireframes. The process began with designing the mobile version, ensuring that the layout and content are optimized for smaller screens. Following the mobile-first approach, the design was then scaled up to accommodate tablet and desktop views.
@@ -128,6 +145,12 @@ Below are the wireframes for "Chelsea Pride" across different devices:
 ### [Tablet Wireframe](wireframes/Wireframe-Tablet.png "Tablet wireframe")
 
 ### [Phone Wireframe](wireframes/Wireframe-phnne.png "Phone wireframe")
+
+\
+&nbsp;
+[Back to Top](#table-of-contents)
+\
+&nbsp;
 
 # Features
 
@@ -158,3 +181,48 @@ The following features are proposed for development in the Chelsea Pride website
 10. **Footer Section**: Design a footer containing additional navigation links, copyright information, and other essential details.
 
 Each feature will be developed in stages, with regular commits to track progress and ensure quality.
+
+## Existing Features
+
+### Navigation Bar
+
+The navigation bar has been thoughtfully designed to be fully responsive, accommodating various screen sizes with ease. It includes essential links for easy navigation throughout the site and prominently features the Chelsea Pride logo, which also serves as a clickable link to return to the homepage.
+
+#### Desktop (>=992px)
+
+![Navigation Bar](wireframes/nav-bar-desktop.png)
+
+- The navigation bar spans the full width of the screen on desktop devices, making all links (News & Updates, Team & History, Fan Zone, Contact Us) clearly visible and accessible. This arrangement ensures straightforward and intuitive navigation for end users.
+- Hover effects have been incorporated to visually indicate which link the user is hovering over, highlighted by a change in text color and an underline effect.
+  
+![Navigation Bar on Hover](wireframes/nav-bar-hover.png)
+  
+- A distinct visual change in text color upon clicking provides feedback to the user, confirming their selection.
+
+![Navigation Bar on Focus](wireframes/nav-bar-focus.png)
+
+#### Small devices (<992px)
+
+![Navigation Bar on Small Devices](wireframes/nav-bar-small.png)
+
+- On smaller screens, the navigation bar adapts to a hamburger menu style to ensure usability is maintained. This compact form factor preserves screen real estate while still providing easy access to all navigation links.
+  
+![Navigation Bar Expanded on Small Devices](wireframes/nav-bar-small-expanded.png)
+  
+- Tapping the hamburger icon reveals the full menu, presenting the same essential navigation links as on larger screens but in a vertical layout, optimized for touch interaction.
+
+#### Enhancements and Responsive Behavior
+
+- **Responsive Design**: The navigation bar's responsiveness is meticulously crafted, providing a seamless transition between different device sizes.
+- **Font Awesome Icons**: The integration of Font Awesome icons, specifically for social media links, augments the navigation bar's functionality and aesthetic appeal.
+- **Hover and Focus Effects**: Enhanced hover and focus effects on the desktop version improve the user's interactive experience, making navigation intuitive and visually engaging.
+- **Font Size Adjustments**: Targeted font size adjustments for medium screens (between 768px and 991px) enhance readability and ensure a balanced appearance across devices.
+- **Layout Optimization**: The stacking issue of menu items on tablet and desktop views has been resolved, ensuring a horizontal and evenly spaced layout.
+
+The revamped navigation bar significantly elevates the usability and visual appeal of the Chelsea Pride website, aligning with contemporary web design standards and ensuring an engaging user experience across all devices.
+
+\
+&nbsp;
+[Back to Top](#table-of-contents)
+\
+&nbsp;
