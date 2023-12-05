@@ -91,19 +91,22 @@ The website will incorporate icons from the [Font Awesome library](https://fonta
 
 ## Colors
 
-For the color scheme, I've used [Colors.co](https://colors.co/ "Colors") to generate a palette that resonates with Chelsea FC's identity while ensuring good contrast and visual appeal.
+The color palette for Chelsea Pride has been carefully selected to align with Chelsea FC's branding and to ensure optimal contrast and visual appeal. The colors were chosen using [Colors.co](https://colors.co/ "Colors"), a tool that helps generate harmonious color schemes.
 
-![Colour Pallet](wireframes/color-palette.png)
+![Colour Palette](wireframes/color-palette.png)
 
-- ##034694 - This colour will be used in headers and key interface elements.
+- **#034694 (Chelsea Blue)**: This vibrant shade of blue is synonymous with Chelsea FC and is used for headers and other key interface elements, providing a strong visual identity that fans can immediately connect with.
 
-- ##C0C0C0 - This color will be used for secondary elements like borders, buttons, and icon backgrounds to provide a modern, sophisticated look.
+- **#C0C0C0 (Slate Grey)**: Used for secondary elements such as borders, buttons, and icon backgrounds, this color offers a modern and sophisticated look that complements the primary Chelsea Blue.
 
-- ##F5F5F5 - This color will be used for the website's background, ensuring that the content stands out without causing strain to the eyes.
+- **#F5F5F5 (Off-White)**: Serving as the background color for the website, this light grey provides a neutral canvas that enhances content visibility while being easy on the eyes, ensuring a comfortable reading experience.
 
-- ##383838 - This color will be use for the main text, providing excellent readability against the off-white background while softening the contrast compared to pure black.
+- **#383838 (Dark Grey)**: This color is used for the main body text. It's a softer alternative to black that provides excellent readability against the off-white background without the harsh contrast that pure black can sometimes create.
 
-- ##D4AF37 - This color will be used for highlighting important elements such as active menu items or call-to-action buttons, adding a touch of elegance and importance.
+- **#D4AF37 (Metallic Gold)**: This accent color is used for highlighting important elements such as active menu items and call-to-action buttons. It adds a touch of sophistication and highlights areas of importance, drawing the user's attention effectively.
+
+Each color has been chosen not only for its aesthetic value but also for its functionality and ease of use, ensuring that the website is accessible and appealing to all users.
+
 
 # Structure
 
