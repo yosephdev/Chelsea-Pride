@@ -6,17 +6,15 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    /* Ensures padding doesn't affect overall width */
 }
 
 body {
     display: flex;
     flex-direction: column;
-    /* Aligns the content in a column layout */
     min-height: 100vh;
-    /* Ensures the body takes up at least the viewport height */
     font-family: 'Lato', sans-serif;
-    /* Default font for consistency */
+    overflow-x: hidden;
+    scroll-behavior: smooth;
 }
 
 h1,
@@ -31,9 +29,7 @@ h6 {
 /* Header Styles */
 header {
     background-color: #034694;
-    /* Chelsea Blue for brand consistency */
     color: white;
-    /* Contrast color for readability */
     padding: 0 1rem;
     position: fixed;
     z-index: 99;
@@ -41,12 +37,69 @@ header {
     box-shadow: 0 2px 2px #3a3a3a;
     display: flex;
     justify-content: space-between;
-    align-items: baseline;
+    align-items: center;
 }
 
 header a {
     text-decoration: none;
     color: inherit;
+}
+
+/* Header Container */
+.header-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+/* Logo Container */
+.logo-container img {
+    max-width: 100px;
+    height: auto;
+}
+
+/* Navigation Bar */
+nav {
+    display: none;
+    flex-direction: column;
+    align-items: start;
+    background-color: #034694;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 100%;
+    padding: 1rem;
+    box-shadow: 0 2px 2px #3a3a3a;
+}
+
+/* Menu Item Styles */
+#menu>li {
+    margin-bottom: 1em;
+}
+
+/* .active {
+    border-bottom: 1px solid #C0C0C0;
+} */
+
+#menu>li>a {
+    color: white;
+    padding: 10px;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+/* Hover State */
+#menu>li>a:hover {
+    background-color: #0563af;
+    color: #fff;
+}
+
+/* Active State */
+#menu>li>a.active,
+#menu>li>a:hover {
+    background-color: #034694;
+    color: #ffd700;
+    border-bottom: 2px solid #ffd700;
 }
 
 #menu {
@@ -55,111 +108,179 @@ header a {
     list-style-type: none;
 }
 
-#menu>li {
-    margin-bottom: 1em;
+/* Hamburger Menu and Social Icons */
+.nav-toggle {
+    display: none;
 }
 
-.active {
-    border-bottom: 1px solid #C0C0C0;
+.hamburger-menu {
+    display: none;
+    cursor: pointer;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 30px;
+    height: 25px;
 }
 
-.logo-container img {
-    height: auto;
-    width: 200px;
-    max-height: 150px;
-}
-
-
-/* Navbar styles with dropdown toggles */
-nav {
-    position: absolute;
-    background-color: #034694;
+.hamburger-menu span {
+    display: block;
+    height: 3px;
     width: 100%;
-    left: 0;
-    padding: 0 1rem;
-    box-shadow: 0 2px 2px #3a3a3a;
-    display: none;
-    top: 100%;
+    background: white;
+    border-radius: 3px;
 }
 
-#nav-toggle:checked~nav {
-    display: block;
+.social-icon {
+    margin: 0 10px;
+    /* Space out icons */
+    color: #fff;
+    /* Set icon color (example) */
 }
 
-#nav-toggle {
-    display: none;
-}
-
-.nav-toggle-label {
-    font-size: 2rem;
-    display: block;
+.social-icon i {
+    font-size: 20px;
+    /* Adjust icon size */
 }
 
 
 /* Main Content Styles */
 main {
     background-color: #F5F5F5;
-    /* Off-White for a light and clean background */
     flex-grow: 1;
-    /* Allows main content to grow and fill available space */
     padding: 2rem;
-    /* Adds space around main content */
-    margin-top: 47px;
+    margin-top: 60px;
+    /* Adjust as per header height */
 }
 
 /* Footer Styles */
 footer {
     background-color: #383838;
-    /* Dark Grey for a subtle footer */
     color: white;
-    /* Contrast color for readability */
     padding: 1rem;
-    /* Adds space around footer content */
     text-align: center;
-    /* Centers footer content */
 }
 
-/* Media query: tablets and larger (768px and up) */
+/* Media Queries */
+
+/* x-small to medium */
+
+@media screen and (max-width: 767px) {
+
+    /* Styles for mobile view */
+
+    nav {
+        display: none;
+        flex-direction: column;
+        align-items: start;
+        background-color: #034694;
+        position: absolute;
+        top: 100%;
+        left: 0;
+        width: 100%;
+        padding: 1rem;
+        box-shadow: 0 2px 2px #3a3a3a;
+    }
+
+    .nav-toggle:checked+.hamburger-menu+nav {
+        display: flex;
+    }
+
+    .hamburger-menu {
+        display: flex;
+    }
+
+    .social-icons {
+        display: none;
+    }
+
+
+    #menu {
+        flex-direction: column;
+        /* Stack menu items vertically in mobile view */
+    }
+
+
+    .logo-container img {
+        width: 100px;
+    }
+
+    main {
+        margin-top: 80px;
+    }
+}
+
+/* medium to large */
+
 @media screen and (min-width: 768px) {
 
-    /* Header */
     nav {
-        display: block;
+        display: flex;
+        align-items: left;
+        justify-content: center;
         position: relative;
         box-shadow: none;
-        width: fit-content;
-        padding-right: 1rem;
+        padding: 0;
     }
 
     #menu {
         display: flex;
+        flex-direction: row;
+        padding: 0;
+        margin: 0;
+        list-style-type: none;
+        align-items: center;
     }
 
     #menu>li {
-        padding-left: 1rem;
+        margin-right: 10px;
     }
 
-    .nav-toggle-label {
+    #menu>li>a {
+        font-size: 14px;
+        padding: 8px 10px;
+        white-space: nowrap;
+    }
+
+    .hamburger-menu,
+    .nav-toggle:checked+.hamburger-menu+nav {
+        display: none;
+    }
+
+    .right-container {
+        display: flex;
+        align-items: center;
+        margin-left: auto;
+    }
+
+    .social-icons {
         display: none;
     }
 
     .logo-container img {
         width: 150px;
-        max-height: 100px;
-        line-height: 75px;
-        margin: 0 0.5rem;
     }
 
-    /* Main content */
     main {
-        /* Push main content down to accommodate larger header */
-        margin-top: 79px;
+        margin-top: 100px;
     }
 }
 
-/* Large devices (laptops and desktops, 992px and up) */
-@media screen and (min-width: 992px) {
-    #menu a:hover{
-        border-bottom: 1px solid #C0C0C0
+/* x-large and above */
+
+@media screen and (min-width: 1200px) {
+    .container {
+        max-width: 1140px;
+    }
+
+    h1 {
+        font-size: 36px;
+    }
+
+    .nav-item {
+        padding: 0 20px;
+    }
+
+    .social-icons {
+        display: flex;
     }
 }
