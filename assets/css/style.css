@@ -152,7 +152,7 @@ main {
 }
 
 .main-banner {
-    background-image: url('../images/banner-image-black.jpg');
+    background-image: url('../images/banner-image.jpg');
     background-size: cover;
     background-position: center;
     position: relative;
