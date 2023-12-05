@@ -14,7 +14,7 @@ body {
     min-height: 100vh;
     font-family: 'Lato', sans-serif;
     overflow-x: hidden;
-    scroll-behavior: smooth;  
+    scroll-behavior: smooth;
     background-color: #F5F5F5;
 }
 
@@ -79,10 +79,6 @@ nav {
     margin-bottom: 1em;
 }
 
-/* .active {
-    border-bottom: 1px solid #C0C0C0;
-} */
-
 #menu>li>a {
     color: white;
     padding: 10px;
@@ -127,15 +123,14 @@ nav {
     display: block;
     height: 3px;
     width: 100%;
-    background: white;
+    background: #C0C0C0;
     border-radius: 3px;
 }
 
 .social-icon {
     margin: 0 10px;
     /* Space out icons */
-    color: #fff;
-    /* Set icon color (example) */
+    color: #C0C0C0;
 }
 
 .social-icon i {
@@ -146,11 +141,14 @@ nav {
 
 /* Main Content Styles */
 main {
-    background-color: #F5F5F5; /* Off-white for a light and clean background */
-    color: #383838; /* Dark grey for the main text, offering readability */
+    background-color: #F5F5F5;
+    /* Off-white for a light and clean background */
+    color: #383838;
+    /* Dark grey for the main text, offering readability */
     flex-grow: 1;
     padding: 1rem;
-    margin-top: 60px; /* Space at the top to account for fixed header */
+    margin-top: 60px;
+    /* Space at the top to account for fixed header */
 }
 
 .main-banner {
@@ -162,13 +160,13 @@ main {
     display: flex;
     align-items: center;
     justify-content: center;
-    padding: 100px 20px; /* Adjust padding as needed */
+    padding: 100px 20px;
 }
 
-.main-banner h1 {   
-    color: #F5F5F5; /* Light color for the title */
-    font-size: 32px; /* Larger font size for main title */
-    z-index: 2; /* Ensures the text is above the pseudo-element */   
+.main-banner h1 {
+    color: #F5F5F5;
+    font-size: 32px;
+    z-index: 2;
 }
 
 .main-banner::before {
@@ -178,42 +176,52 @@ main {
     right: 0;
     bottom: 0;
     left: 0;
-    background: rgba(0, 0, 0, 0.5); /* Dark overlay for readability */
-    z-index: 1; /* Puts the overlay above the image but below the text */
+    background: rgba(0, 0, 0, 0.5);
+    z-index: 1;
 }
 
 
-/* You might also style other elements within the main section, like headers and buttons, to use the color scheme: */
-main h1, main h2, main h3, main h4, main h5, main h6 {
-    color: #034694; /* Chelsea Blue for headers */
+main h1,
+main h2,
+main h3,
+main h4,
+main h5,
+main h6 {
+    color: #034694;
+    /* Chelsea Blue for headers */
 }
 
-main a, .button, .btn {
-    background-color: #D4AF37; /* Metallic Gold for call-to-action buttons */
-    color: #ffffff; /* White text on buttons for contrast */
-    border: none; /* Assuming you don't want borders, but adjust as needed */
-    padding: 10px 20px; /* Example padding, adjust as needed */
-    text-transform: uppercase; /* Optional style for buttons */
-    border-radius: 4px; /* Optional rounded corners for buttons */
-    transition: background-color 0.3s ease; /* Smooth transition for hover effect */
+main a,
+.button,
+.btn {
+    background-color: #D4AF37;
+    color: #ffffff;
+    border: none;
+    padding: 10px 20px;
+    text-transform: uppercase;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
 }
 
-main a:hover, .button:hover, .btn:hover {
-    background-color: #b3962f; /* Darker shade of gold for hover effect */
+main a:hover,
+.button:hover,
+.btn:hover {
+    background-color: #b3962f;
 }
 
 
 /* Styles for the News & Updates Section */
 
 .news-section {
-    background-color: #F5F5F5; 
+    background-color: #F5F5F5;
     margin: 10px 0;
 }
 
 .news-section h2 {
-    font-size: 24px; 
-    color: #034694; /* Chelsea Blue for section headers */
-    margin-bottom: 20px; /* Space below the h2 heading */    
+    font-size: 24px;
+    color: #034694;
+    /* Chelsea Blue for section headers */
+    margin-bottom: 20px;
 }
 
 /* Footer Styles */
@@ -229,9 +237,7 @@ footer {
 /* Medium devices (tablets, 768px and up) */
 
 @media screen and (max-width: 767px) {
-
-    /* Styles for mobile view */
-
+    
     nav {
         display: none;
         flex-direction: column;
@@ -257,12 +263,9 @@ footer {
         display: none;
     }
 
-
     #menu {
-        flex-direction: column;
-        /* Stack menu items vertically in mobile view */
+        flex-direction: column;      
     }
-
 
     .logo-container img {
         width: 100px;
@@ -273,7 +276,7 @@ footer {
     }
 
     .main-banner h1 {
-        font-size: 36px; /* Slightly larger font for larger devices */
+        font-size: 36px;        
     }
 }
 
@@ -333,11 +336,11 @@ footer {
     }
 
     .main-banner {
-        padding: 150px 20px; 
+        padding: 150px 20px;
     }
 
     .main-banner h1 {
-        font-size: 40px; 
+        font-size: 40px;
     }
 }
 
@@ -361,6 +364,6 @@ footer {
     }
 
     .main-banner h1 {
-        font-size: 48px; 
+        font-size: 48px;
     }
 }
