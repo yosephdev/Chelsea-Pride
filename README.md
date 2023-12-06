@@ -36,6 +36,10 @@ This site facilitates easy interaction with the club and fellow fans through soc
       - [Desktop (\>=992px)](#desktop-992px)
       - [Small devices (\<992px)](#small-devices-992px)
       - [Enhancements and Responsive Behavior](#enhancements-and-responsive-behavior)
+  - [Main Banner with Site Title](#main-banner-with-site-title)
+    - [Overview](#overview)
+    - [Design and Features](#design-and-features)
+    - [HTML and CSS Implementation](#html-and-css-implementation)
 
 # UX
 
@@ -106,7 +110,6 @@ The color palette for Chelsea Pride has been carefully selected to align with Ch
 - **#D4AF37 (Metallic Gold)**: This accent color is used for highlighting important elements such as active menu items and call-to-action buttons. It adds a touch of sophistication and highlights areas of importance, drawing the user's attention effectively.
 
 Each color has been chosen not only for its aesthetic value but also for its functionality and ease of use, ensuring that the website is accessible and appealing to all users.
-
 
 # Structure
 
@@ -229,3 +232,36 @@ The revamped navigation bar significantly elevates the usability and visual appe
 [Back to Top](#table-of-contents)
 \
 &nbsp;
+
+## Main Banner with Site Title
+
+### Overview
+
+The Main Banner is a prominent feature at the top of the Chelsea Pride website, immediately capturing the visitor's attention with its striking design and the prominent display of the site title, "Chelsea Pride: The Heart of Chelsea Football Club."
+
+### Design and Features
+
+- **Striking Visual Presentation**: The Main Banner is designed to be visually striking, making a strong first impression as soon as visitors land on the website.
+
+- **Site Title**: The banner prominently features the site title "Chelsea Pride: The Heart of Chelsea Football Club" in large, readable text. This not only serves as an introduction to the site but also reinforces the website's identity and purpose.
+
+- **Responsive Design**: The banner is fully responsive, ensuring that it looks great and remains functional on devices of all sizes, from desktops to mobile phones.
+
+- **Styling Consistency**: The design of the banner is consistent with the overall Chelsea FC theme, using the club's color palette and typography to create a cohesive look.
+
+### HTML and CSS Implementation
+
+- **Semantic HTML**: The banner is implemented using semantic HTML, with a `<div>` element classed as `main-banner` encapsulating an `<h1>` tag for the site title. This ensures proper structuring and accessibility.
+
+- **CSS Styling**: The banner's CSS styling is carefully crafted to align with the aesthetic of the Chelsea Pride website, utilizing the Chelsea FC color palette and modern typography for maximum impact.
+
+```html
+<!-- Main Banner with Site Title -->
+<div class="main-banner">
+    <h1>Chelsea Pride: The Heart of Chelsea Football Club</h1>
+</div>
+```
+
+![Landing Page](wireframes/landing-page.png)
+
+[Back to Top](#table-of-contents)
