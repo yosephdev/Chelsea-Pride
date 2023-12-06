@@ -15,7 +15,8 @@ body {
     font-family: 'Lato', sans-serif;
     overflow-x: hidden;
     scroll-behavior: smooth;
-    background-color: #F5F5F5;
+    background-color: #F5F5F5; /* Off-White background */
+    color: #383838; /* Dark Grey for main body text */
 }
 
 h1,
@@ -26,6 +27,11 @@ h5,
 h6 {
     font-family: 'Raleway', sans-serif;
 }
+
+h1, h2, h3 {
+    color: #034694; /* Chelsea Blue for headers */
+}
+
 
 /* Header Styles */
 header {
@@ -74,6 +80,15 @@ nav {
     box-shadow: 0 2px 2px #3a3a3a;
 }
 
+nav a {
+    color: #C0C0C0; /* Slate Grey for nav links */
+}
+
+nav a.active, nav a:hover {
+    color: #D4AF37; /* Metallic Gold for active/hover states */
+}
+
+
 /* Menu Item Styles */
 #menu>li {
     margin-bottom: 1em;
@@ -111,7 +126,7 @@ nav {
 }
 
 .hamburger-menu {
-    display: none;
+    display: flex;
     cursor: pointer;
     flex-direction: column;
     justify-content: space-around;
@@ -127,15 +142,22 @@ nav {
     border-radius: 3px;
 }
 
+.nav-toggle:checked+.hamburger-menu+nav {
+    display: flex;
+}
+
 .social-icon {
     margin: 0 10px;
-    /* Space out icons */
     color: #C0C0C0;
 }
 
 .social-icon i {
     font-size: 20px;
     /* Adjust icon size */
+}
+
+.social-icons {
+    display: none;
 }
 
 
@@ -146,9 +168,17 @@ main {
     color: #383838;
     /* Dark grey for the main text, offering readability */
     flex-grow: 1;
-    padding: 1rem;
+    padding: 0;
     margin-top: 60px;
     /* Space at the top to account for fixed header */
+    margin-bottom: 0;
+}
+
+/* Style for the main banner and sections */
+.main-banner,
+#latest-news {
+    text-align: left;
+    margin-bottom: 20px;
 }
 
 .main-banner {
@@ -161,6 +191,7 @@ main {
     align-items: center;
     justify-content: center;
     padding: 100px 20px;
+    margin-bottom: 50px;
 }
 
 .main-banner h1 {
@@ -209,81 +240,58 @@ main a:hover,
     background-color: #b3962f;
 }
 
-
-/* Styles for the News & Updates Section */
-
-.news-section {
-    background-color: #F5F5F5;
-    margin: 10px 0;
+/* Featured section */
+.featured-content {
+    background: url(../images/stamford-bridge.jpg) no-repeat center/cover;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 30px;  
+    padding: 0;  
+    margin-bottom: 20px;
 }
 
-.news-section h2 {
-    font-size: 24px;
-    color: #034694;
-    /* Chelsea Blue for section headers */
-    margin-bottom: 20px;
+
+.featured-content div {
+    color: #F5F5F5; /* Off-White for text in featured content */
+    background-color: rgba(0, 0, 0, 0.6); /* Semi-transparent black background */
+    padding: 15px;
+    text-align: center;
+    flex-basis: 200px;
+    flex-grow: 1;
+    border: 2px solid #C0C0C0; /* Slate Grey for borders */
+}
+
+/* Hover Effects */
+.featured-content div:hover {
+    background-color: rgba(0, 0, 0, 0.7); /* Darken background on hover */
+}
+
+.featured-content h3 {
+    color: #D4AF37;    
+}
+
+.featured-content p {
+    color: #C0C0C0;   
+}
+
+
+.featured-content i {
+    color: #C0C0C0;    
 }
 
 /* Footer Styles */
 footer {
-    background-color: #383838;
+    background-color: #383838; /* Dark Grey */
     color: white;
     padding: 1rem;
     text-align: center;
 }
 
+
 /* Media Queries */
 
-/* Medium devices (tablets, 768px and up) */
-
-@media screen and (max-width: 767px) {
-    
-    nav {
-        display: none;
-        flex-direction: column;
-        align-items: start;
-        background-color: #034694;
-        position: absolute;
-        top: 100%;
-        left: 0;
-        width: 100%;
-        padding: 1rem;
-        box-shadow: 0 2px 2px #3a3a3a;
-    }
-
-    .nav-toggle:checked+.hamburger-menu+nav {
-        display: flex;
-    }
-
-    .hamburger-menu {
-        display: flex;
-    }
-
-    .social-icons {
-        display: none;
-    }
-
-    #menu {
-        flex-direction: column;      
-    }
-
-    .logo-container img {
-        width: 100px;
-    }
-
-    main {
-        margin-top: 80px;
-    }
-
-    .main-banner h1 {
-        font-size: 36px;        
-    }
-}
-
-/* Large devices (desktops, 992px and up) */
-
+/* Media Queries for Medium and Large devices (768px and up) */
 @media screen and (min-width: 768px) {
-
     nav {
         display: flex;
         align-items: left;
@@ -302,18 +310,18 @@ footer {
         align-items: center;
     }
 
-    #menu>li {
+    #menu > li {
         margin-right: 10px;
     }
 
-    #menu>li>a {
+    #menu > li > a {
         font-size: 14px;
         padding: 8px 10px;
         white-space: nowrap;
     }
 
     .hamburger-menu,
-    .nav-toggle:checked+.hamburger-menu+nav {
+    .nav-toggle:checked + .hamburger-menu + nav {
         display: none;
     }
 
@@ -321,10 +329,6 @@ footer {
         display: flex;
         align-items: center;
         margin-left: auto;
-    }
-
-    .social-icons {
-        display: none;
     }
 
     .logo-container img {
@@ -345,7 +349,6 @@ footer {
 }
 
 /* Extra large devices (large desktops, 1200px and up) */
-
 @media screen and (min-width: 1200px) {
     .container {
         max-width: 1140px;
