@@ -40,6 +40,10 @@ This site facilitates easy interaction with the club and fellow fans through soc
     - [Overview](#overview)
     - [Design and Features](#design-and-features)
     - [HTML and CSS Implementation](#html-and-css-implementation)
+  - [Featured Content Section](#featured-content-section)
+    - [Overview](#overview-1)
+    - [Design and Implementation](#design-and-implementation)
+      - [HTML and CSS Construction](#html-and-css-construction)
 
 # UX
 
@@ -263,5 +267,34 @@ The Main Banner is a prominent feature at the top of the Chelsea Pride website, 
 ```
 
 ![Landing Page](wireframes/landing-page.png)
+
+[Back to Top](#table-of-contents)
+
+## Featured Content Section
+
+### Overview
+
+This section serves as a focal point for displaying the latest club news, match highlights, and special features in an engaging and visually appealing manner.
+
+### Design and Implementation
+
+#### HTML and CSS Construction
+
+- **Semantic HTML**: I used semantic HTML5 elements to ensure better content organization and accessibility, creating a structured and SEO-friendly layout.
+  
+- **Responsive Design**: The section was built with a responsive design, enabling seamless display and interaction across various devices, from desktops to mobile phones.
+
+- **Chelsea FC Color Palette**: The CSS styling is crafted to align with the Chelsea FC color palette, enhancing the section's visual identity and appeal. Key colors include:
+  - Chelsea Blue (#034694) for headers and key interface elements.
+  - Slate Grey (#C0C0C0) for secondary elements such as borders and buttons.
+  - Off-White (#F5F5F5) as the background color.
+  - Dark Grey (#383838) for the main body text.
+  - Metallic Gold (#D4AF37) for accentuating important elements.
+
+- **Modern Typography**: Google Fonts 'Lato' and 'Raleway' were selected to improve the overall readability and aesthetic of the content.
+
+- **Interactive Elements**: Interactive elements like hover effects were incorporated to enhance user engagement and make navigation within the section intuitive and visually engaging.
+
+![Landing Page](wireframes/feature-page.png)
 
 [Back to Top](#table-of-contents)
