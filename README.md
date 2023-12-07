@@ -48,6 +48,8 @@ This site facilitates easy interaction with the club and fellow fans through soc
     - [Overview](#overview-2)
     - [Design and Implementation](#design-and-implementation-1)
       - [HTML and CSS Construction](#html-and-css-construction-1)
+    - [Club Timeline](#club-timeline)
+      - [Design and Features](#design-and-features-1)
 
 # UX
 
@@ -331,5 +333,21 @@ The "Latest News" section is designed to be the hub for all the current and sign
 - **Interactive Elements**: Hover effects on buttons and links add an interactive layer, making navigation within the section intuitive and visually pleasing.
 
 ![Latest News Section](wireframes/latest-news-section.png)
+
+[Back to Top](#table-of-contents)
+
+### Club Timeline
+
+The "Club Timeline" is a central feature of the "Team & History" section, offering a chronological journey through the pivotal moments of Chelsea Football Club's history. This timeline serves as an interactive and educational tool, allowing fans and visitors to explore the club's significant milestones over the years.
+
+#### Design and Features
+
+![Club Timeline Section](wireframes/club-timeline-section.png)
+
+- The timeline is designed to be visually engaging and easy to navigate. It features a series of events, each marked by a year and accompanied by a brief description of the milestone.
+- On larger screens, the timeline adopts a horizontal layout with events alternating on either side of a central line, showcasing a balanced and aesthetically pleasing design. On smaller screens, it switches to a vertical format for better readability.
+- Each event on the timeline is highlighted with the club's color theme, maintaining consistency and enhancing visual appeal.
+- The timeline not only commemorates the club's achievements but also acts as a storytelling medium, bringing the club's past to life and forging a deeper connection with its rich heritage.
+- This feature is built using responsive design principles, ensuring that it adapts seamlessly across various device sizes and screen resolutions.
 
 [Back to Top](#table-of-contents)
