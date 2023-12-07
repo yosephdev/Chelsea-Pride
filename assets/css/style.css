@@ -366,18 +366,21 @@ main a:hover,
 }
 
 #team-history {
-    background-color: #F5F5F5; /* Off-White, or consider a vintage texture or image */
+    background-color: #F5F5F5;
+    /* Off-White, or consider a vintage texture or image */
     padding: 20px;
     text-align: center;
 }
 
 #team-history h2 {
-    color: #034694; /* Chelsea Blue */
+    color: #034694;
+    /* Chelsea Blue */
     margin-bottom: 30px;
 }
 
 .history-intro p {
-    color: #383838; /* Dark Grey */
+    color: #383838;
+    /* Dark Grey */
     margin-bottom: 20px;
 }
 
@@ -392,6 +395,54 @@ main a:hover,
     flex-wrap: wrap;
     justify-content: center;
     gap: 20px;
+}
+
+/* Timeline */
+
+.timeline-container {
+    text-align: center;
+    margin: 40px 0;
+}
+
+.timeline-container h3 {
+    color: #034694;
+    /* Chelsea Blue */
+    margin-bottom: 20px;
+}
+
+.timeline {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0;
+    list-style: none;
+}
+
+.timeline-event {
+    position: relative;
+    margin-bottom: 20px;
+}
+
+.timeline-content {
+    display: inline-block;
+    padding: 10px;
+    background-color: #FFFFFF;
+    /* White */
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.1);
+    border-left: 3px solid #034694;
+    /* Chelsea Blue */
+    border-radius: 4px;
+    text-align: left;
+}
+
+.timeline-content h4 {
+    color: #034694;
+    /* Chelsea Blue */
+}
+
+.timeline-content p {
+    color: #383838;
+    /* Dark Grey */
 }
 
 /* Footer Styles */
@@ -481,6 +532,50 @@ footer {
     .video-image {
         height: 200px;
     }
+
+    /* Timeline */
+    .timeline {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 0;
+        margin: 0 auto;
+    }
+
+    .timeline-event {
+        width: 30%;
+        display: flex;
+        justify-content: flex-end;
+        margin-bottom: 20px;
+        position: relative;
+    }
+
+    .timeline-event:nth-child(odd) {
+        justify-content: flex-start;
+    }
+
+    .timeline-content {
+        width: 80%;
+        padding: 10px;
+        background-color: #F5F5F5;
+        border-radius: 4px;
+        box-shadow: 0 3px 6px rgba(0, 0, 0, 0.1);
+        position: relative;
+        z-index: 1;
+    }
+
+    .timeline-event::before {
+        content: '';
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+        left: 50%;
+        height: 2px;
+        width: 100%;
+        background-color: #D4AF37;
+        /* Metallic Gold for the timeline */
+        z-index: 0;
+    }
 }
 
 /* Extra large devices (large desktops, 1200px and up) */
@@ -525,5 +620,62 @@ footer {
 
     .video-image {
         height: 300px;
+    }
+
+    .timeline {
+        max-width: 200px;
+        margin: 0 auto;
+    }
+
+    .timeline-event::before {
+        left: 50%;
+        margin-left: -1.5px;
+    }
+
+    .timeline-content {
+        width: 85%;
+        margin-left: 0;
+    }
+
+    .timeline {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        max-width: 900px;
+        margin: 0 auto;
+    }
+
+    .timeline-event {
+        width: 100%;
+        display: flex;
+        justify-content: flex-end;
+        margin-bottom: 20px;
+    }
+
+    .timeline-event:nth-child(odd) {
+        justify-content: flex-start;
+    }
+
+    .timeline-content {
+        position: relative;
+        width: 45%;
+        padding: 10px;
+        background-color: #f5f5f5;
+        border-radius: 4px;
+        box-shadow: 0 3px 6px rgba(0, 0, 0, 0.1);
+        z-index: 1;
+    }
+
+    .timeline-event::before {
+        content: '';
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translateX(-50%);
+        height: 2px;
+        width: 100%;
+        background-color: #D4AF37;
+        /* Metallic Gold for the timeline */
+        z-index: 0;
     }
 }
