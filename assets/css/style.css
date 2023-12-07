@@ -15,8 +15,10 @@ body {
     font-family: 'Lato', sans-serif;
     overflow-x: hidden;
     scroll-behavior: smooth;
-    background-color: #F5F5F5; /* Off-White background */
-    color: #383838; /* Dark Grey for main body text */
+    background-color: #F5F5F5;
+    /* Off-White background */
+    color: #383838;
+    /* Dark Grey for main body text */
 }
 
 h1,
@@ -28,8 +30,11 @@ h6 {
     font-family: 'Raleway', sans-serif;
 }
 
-h1, h2, h3 {
-    color: #034694; /* Chelsea Blue for headers */
+h1,
+h2,
+h3 {
+    color: #034694;
+    /* Chelsea Blue for headers */
 }
 
 
@@ -81,11 +86,14 @@ nav {
 }
 
 nav a {
-    color: #C0C0C0; /* Slate Grey for nav links */
+    color: #C0C0C0;
+    /* Slate Grey for nav links */
 }
 
-nav a.active, nav a:hover {
-    color: #D4AF37; /* Metallic Gold for active/hover states */
+nav a.active,
+nav a:hover {
+    color: #D4AF37;
+    /* Metallic Gold for active/hover states */
 }
 
 
@@ -110,7 +118,7 @@ nav a.active, nav a:hover {
 #menu>li>a.active,
 #menu>li>a:hover {
     background-color: #034694;
-    /* color: #ffd700; */
+    color: #ffd700;
     border-bottom: 2px solid #ffd700;
 }
 
@@ -153,7 +161,6 @@ nav a.active, nav a:hover {
 
 .social-icon i {
     font-size: 20px;
-    /* Adjust icon size */
 }
 
 .social-icons {
@@ -245,43 +252,123 @@ main a:hover,
     background: url(../images/stamford-bridge.jpg) no-repeat center/cover;
     display: flex;
     flex-wrap: wrap;
-    margin-top: 30px;  
-    padding: 0;  
+    margin-top: 30px;
+    padding: 0;
     margin-bottom: 20px;
 }
 
 
 .featured-content div {
-    color: #F5F5F5; /* Off-White for text in featured content */
-    background-color: rgba(0, 0, 0, 0.6); /* Semi-transparent black background */
+    color: #F5F5F5;
+    /* Off-White for text in featured content */
+    background-color: rgba(0, 0, 0, 0.6);
+    /* Semi-transparent black background */
     padding: 15px;
     text-align: center;
     flex-basis: 200px;
     flex-grow: 1;
-    border: 2px solid #C0C0C0; /* Slate Grey for borders */
+    border: 2px solid #C0C0C0;
+    /* Slate Grey for borders */
 }
 
 /* Hover Effects */
 .featured-content div:hover {
-    background-color: rgba(0, 0, 0, 0.7); /* Darken background on hover */
+    background-color: rgba(0, 0, 0, 0.7);
+    /* Darken background on hover */
 }
 
 .featured-content h3 {
-    color: #D4AF37;    
+    color: #D4AF37;
 }
 
 .featured-content p {
-    color: #C0C0C0;   
+    color: #C0C0C0;
 }
 
 
 .featured-content i {
-    color: #C0C0C0;    
+    color: #C0C0C0;
+}
+
+/* Latest News section */
+#latest-news {
+    background-color: #F5F5F5;
+    /* Off-White background */
+    color: #383838;
+    /* Dark Grey for text */
+    padding: 20px;
+    text-align: center;
+}
+
+#latest-news h2 {
+    color: #034694;
+    /* Chelsea Blue for headings */
+    margin-bottom: 30px;
+}
+
+.news-multimedia-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.news-multimedia {
+    margin-bottom: 20px;
+}
+
+.news-article {
+    background-color: #FFFFFF;
+    /* White background for article */
+    padding: 15px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+}
+
+.news-article h3 {
+    color: #034694;
+    /* Chelsea Blue for article titles */
+    margin-bottom: 10px;
+}
+
+.news-article p {
+    margin-bottom: 15px;
+}
+
+.news-article img {
+    margin-bottom: 15px;
+}
+
+.read-more-btn {
+    background-color: #D4AF37;
+    /* Metallic Gold for buttons */
+    color: #FFFFFF;
+    /* White text on buttons */
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.read-more-btn:hover {
+    background-color: #b3962f;
+    /* Darker gold on hover */
+}
+
+.news-image,
+.video-image {
+    width: 100%;
+    height: auto;
+}
+
+.video-placeholder {
+    text-align: center;
 }
 
 /* Footer Styles */
 footer {
-    background-color: #383838; /* Dark Grey */
+    background-color: #383838;
+    /* Dark Grey */
     color: white;
     padding: 1rem;
     text-align: center;
@@ -310,18 +397,18 @@ footer {
         align-items: center;
     }
 
-    #menu > li {
+    #menu>li {
         margin-right: 10px;
     }
 
-    #menu > li > a {
+    #menu>li>a {
         font-size: 14px;
         padding: 8px 10px;
         white-space: nowrap;
     }
 
     .hamburger-menu,
-    .nav-toggle:checked + .hamburger-menu + nav {
+    .nav-toggle:checked+.hamburger-menu+nav {
         display: none;
     }
 
@@ -346,6 +433,25 @@ footer {
     .main-banner h1 {
         font-size: 40px;
     }
+
+    .news-multimedia-container {
+        flex-wrap: wrap;
+    }
+
+    .news-multimedia {
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-start;
+    }
+
+    .news-article,
+    .video-placeholder {
+        flex-basis: 45%;
+    }
+
+    .video-image {
+        height: 200px;
+    }
 }
 
 /* Extra large devices (large desktops, 1200px and up) */
@@ -368,5 +474,27 @@ footer {
 
     .main-banner h1 {
         font-size: 48px;
+    }
+
+    .news-multimedia-container {
+        flex-wrap: wrap;
+    }
+
+    .news-multimedia {
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-start;
+    }
+
+    .news-article {
+        flex-basis: 45%;
+    }
+
+    .video-placeholder {
+        flex-basis: 35%;
+    }
+
+    .video-image {
+        height: 300px;
     }
 }
