@@ -365,6 +365,35 @@ main a:hover,
     text-align: center;
 }
 
+#team-history {
+    background-color: #F5F5F5; /* Off-White, or consider a vintage texture or image */
+    padding: 20px;
+    text-align: center;
+}
+
+#team-history h2 {
+    color: #034694; /* Chelsea Blue */
+    margin-bottom: 30px;
+}
+
+.history-intro p {
+    color: #383838; /* Dark Grey */
+    margin-bottom: 20px;
+}
+
+.timeline-container,
+.notable-figures,
+.historic-matches {
+    margin-bottom: 40px;
+}
+
+.figure-profiles {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
 /* Footer Styles */
 footer {
     background-color: #383838;
