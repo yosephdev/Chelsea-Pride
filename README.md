@@ -50,6 +50,8 @@ This site facilitates easy interaction with the club and fellow fans through soc
       - [HTML and CSS Construction](#html-and-css-construction-1)
     - [Club Timeline](#club-timeline)
       - [Design and Features](#design-and-features-1)
+    - [Legendary Figures](#legendary-figures)
+      - [Design and Features](#design-and-features-2)
 
 # UX
 
@@ -349,5 +351,21 @@ The "Club Timeline" is a central feature of the "Team & History" section, offeri
 - Each event on the timeline is highlighted with the club's color theme, maintaining consistency and enhancing visual appeal.
 - The timeline not only commemorates the club's achievements but also acts as a storytelling medium, bringing the club's past to life and forging a deeper connection with its rich heritage.
 - This feature is built using responsive design principles, ensuring that it adapts seamlessly across various device sizes and screen resolutions.
+
+[Back to Top](#table-of-contents)
+
+### Legendary Figures
+
+This section is dedicated to the iconic legends of Chelsea Football Club, showcasing the profiles of key figures who have made significant contributions to the club's history. Each legend's profile features a photograph, name, and a brief description, giving fans a glimpse into the legacy and achievements of these remarkable individuals.
+
+#### Design and Features
+
+![Legendary Figures Section](wireframes/legendary-figures-section.png)
+
+- The section is presented in a visually appealing card layout, ideal for highlighting individual legends in a neat and organized manner.
+- On larger screens, the cards are displayed in a multi-column grid, offering an engaging browsing experience. On smaller screens, the layout adjusts to ensure readability and accessibility.
+- Each card includes a hover effect, adding a subtle interactive element to engage users.
+- The design adheres to the Chelsea FC color scheme, maintaining visual consistency throughout the site.
+- This section not only celebrates the club's history but also serves as an educational resource for new fans to learn about the club's illustrious past.
 
 [Back to Top](#table-of-contents)
