@@ -52,6 +52,8 @@ This site facilitates easy interaction with the club and fellow fans through soc
       - [Design and Features](#design-and-features-1)
     - [Legendary Figures](#legendary-figures)
       - [Design and Features](#design-and-features-2)
+    - [Memorable Matches](#memorable-matches)
+      - [Design and Features](#design-and-features-3)
 
 # UX
 
@@ -367,5 +369,21 @@ This section is dedicated to the iconic legends of Chelsea Football Club, showca
 - Each card includes a hover effect, adding a subtle interactive element to engage users.
 - The design adheres to the Chelsea FC color scheme, maintaining visual consistency throughout the site.
 - This section not only celebrates the club's history but also serves as an educational resource for new fans to learn about the club's illustrious past.
+
+[Back to Top](#table-of-contents)
+
+### Memorable Matches
+
+Within the "Team & History" section, the "Memorable Matches" feature highlights some of the most significant matches in Chelsea Football Club's history. This part of the website vividly recalls iconic games, showcasing their importance in shaping the club's legacy. Each match is represented with an image, title, and a brief narrative, painting a picture of the event's atmosphere and significance.
+
+#### Design and Features
+
+![Memorable Matches Section](wireframes/memorable-matches.png)
+
+- The matches are presented in an attractive card layout, ideal for encapsulating the essence of each historic game in a concise and visually engaging manner.
+- On larger screens, these cards are arranged in a multi-column grid, enhancing the browsing experience and allowing users to easily navigate through the club's storied past. On smaller screens, the layout adapts for optimal readability and accessibility.
+- Interactive elements like hover effects are incorporated into each card, adding a layer of engagement and inviting users to explore the details of each match.
+- Consistent with the Chelsea FC color scheme, the design maintains a cohesive look and feel with the rest of the site.
+- This feature not only commemorates the club's historic victories and pivotal moments but also serves as an informative gateway for fans and newcomers alike to understand and appreciate the club's rich history.
 
 [Back to Top](#table-of-contents)
