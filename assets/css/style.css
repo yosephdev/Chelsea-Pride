@@ -515,7 +515,7 @@ main a:hover,
     background-color: #f5f5f5;
     border-radius: 4px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-    overflow: hidden;       
+    overflow: hidden;
 }
 
 .match-card img {
@@ -540,39 +540,44 @@ main a:hover,
 
 /* Fan Zone */
 #fan-zone {
-    background-color: #F5F5F5; /* Off-White */
-    color: #383838; /* Dark Grey */
+    background-color: #F5F5F5;
+    /* Off-White */
+    color: #383838;
+    /* Dark Grey */
     padding: 20px;
     text-align: center;
 }
 
 #fan-zone h2 {
-    color: #034694; /* Chelsea Blue */
+    color: #034694;
+    /* Chelsea Blue */
     margin-bottom: 30px;
 }
 
-.fan-interactions > div {
+.fan-interactions>div {
     margin-bottom: 20px;
     padding: 15px;
-    background-color: #f5f5f5; 
+    background-color: #f5f5f5;
     border-radius: 4px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
 .fan-interactions h3 {
-    color: #034694; /* Chelsea Blue */
+    color: #034694;
+    /* Chelsea Blue */
     margin-bottom: 10px;
 }
 
 .fan-interactions p {
-    color: #383838; 
+    color: #383838;
     margin-bottom: 10px;
 }
 
 .forum-link {
     display: inline-block;
-    background-color: #034694; /* Chelsea Blue */
-    color: #F5F5F5; 
+    background-color: #034694;
+    /* Chelsea Blue */
+    color: #F5F5F5;
     padding: 10px 20px;
     border-radius: 4px;
     text-decoration: none;
@@ -580,9 +585,43 @@ main a:hover,
 }
 
 .forum-link:hover {
-    background-color: #02325f; /* Darker blue on hover */
+    background-color: #02325f;
+    /* Darker blue on hover */
 }
 
+.fan-poll {
+    margin: 20px 0;
+    padding: 15px;
+    background-color: #F5F5F5;
+    border-radius: 4px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.fan-poll form {
+    margin-top: 15px;
+}
+
+.fan-poll label {
+    display: block;
+    margin-bottom: 10px; 
+       
+}
+
+.poll-submit-btn {
+    background-color: #034694;
+    /* Chelsea Blue */
+    color: #F5F5F5;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.poll-submit-btn:hover {
+    background-color: #02325f;
+    /* Darker blue on hover */
+}
 
 /* Footer Styles */
 footer {
