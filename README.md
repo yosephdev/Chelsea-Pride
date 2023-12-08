@@ -54,6 +54,9 @@ This site facilitates easy interaction with the club and fellow fans through soc
       - [Design and Features](#design-and-features-2)
     - [Memorable Matches](#memorable-matches)
       - [Design and Features](#design-and-features-3)
+    - [Fan Zone](#fan-zone)
+      - [Design and Features](#design-and-features-4)
+      - [Interactive and Responsive Design](#interactive-and-responsive-design)
 
 # UX
 
@@ -385,5 +388,28 @@ Within the "Team & History" section, the "Memorable Matches" feature highlights 
 - Interactive elements like hover effects are incorporated into each card, adding a layer of engagement and inviting users to explore the details of each match.
 - Consistent with the Chelsea FC color scheme, the design maintains a cohesive look and feel with the rest of the site.
 - This feature not only commemorates the club's historic victories and pivotal moments but also serves as an informative gateway for fans and newcomers alike to understand and appreciate the club's rich history.
+
+[Back to Top](#table-of-contents)
+
+### Fan Zone
+
+The "Fan Zone" section is a dynamic and interactive area of the website, dedicated to engaging Chelsea Football Club fans in various activities. This section is designed to foster a sense of community and participation among the club's supporters.
+
+#### Design and Features
+
+![Fan Zone Section](wireframes/fan-zone.png)
+
+- **Weekly Fan Poll**: Fans have the opportunity to voice their opinions through weekly polls, such as voting for their player of the match. This interactive poll uses radio buttons for voting, making it user-friendly and engaging.
+
+- **Chelsea Trivia**: This feature tests fans' knowledge about the club's history with a series of trivia questions. The trivia adds an educational and fun dimension to the fan experience, challenging supporters to recall significant moments and facts about the club.
+
+- **Discussion Forum**: A platform for fans to engage in conversations about the club. Whether it's discussing the latest match, transfer rumors, or historical moments, the forum serves as a space for lively discussions and community bonding.
+
+#### Interactive and Responsive Design
+
+- The "Fan Zone" is designed with interactivity in mind, offering features that actively engage users. From polls to quizzes, each element encourages participation and contribution.
+- On larger screens, the layout of these features is presented in a multi-column format for easy navigation. On smaller screens, the layout shifts to a stacked format for better readability and accessibility.
+- The design adheres to Chelsea FC's color scheme and aesthetic, maintaining visual consistency throughout the site.
+- By combining interactive elements with a user-friendly design, the "Fan Zone" enhances the overall fan experience on the website, making it a go-to destination for Chelsea FC supporters.
 
 [Back to Top](#table-of-contents)
