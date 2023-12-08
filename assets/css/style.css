@@ -604,7 +604,6 @@ main a:hover,
 .fan-poll label {
     display: block;
     margin-bottom: 10px; 
-       
 }
 
 .poll-submit-btn {
@@ -622,6 +621,43 @@ main a:hover,
     background-color: #02325f;
     /* Darker blue on hover */
 }
+
+/* Fan Trivia */
+.fan-trivia {
+    margin: 20px 0;
+    padding: 15px;
+    background-color: #F5F5F5; 
+    border-radius: 4px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.fan-trivia h3 {
+    color: #034694; /* Chelsea Blue */
+    margin-bottom: 10px;
+}
+
+.trivia-question {
+    margin-bottom: 15px;
+}
+
+.trivia-question p {
+    margin-bottom: 5px;
+}
+
+.trivia-submit-btn {
+    background-color: #034694; /* Chelsea Blue */
+    color: #F5F5F5; /* White */
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.trivia-submit-btn:hover {
+    background-color: #02325f; /* Darker blue on hover */
+}
+
 
 /* Footer Styles */
 footer {
