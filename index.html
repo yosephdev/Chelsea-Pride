@@ -297,11 +297,31 @@
                         class="forum-link">Visit the Chelsea FC Forum</a>
                 </div>
 
-                <!-- Fan Trivia or Quizzes -->
+                <!-- Fan Trivia -->
                 <div class="fan-trivia">
                     <h3>Chelsea Trivia</h3>
                     <p>Test your knowledge about the club's history!</p>
-                    <!-- Trivia questions and answers here -->
+                    <form id="trivia-form" method="post" action="https://formdump.codeinstitute.net">
+                        <div class="trivia-question">
+                            <p>1. Who scored the winning penalty in the 2012 Champions League Final?</p>
+                            <label><input type="radio" name="q1" value="Didier Drogba"> Didier Drogba</label>
+                            <label><input type="radio" name="q1" value="Frank Lampard"> Frank Lampard</label>
+                            <label><input type="radio" name="q1" value="John Terry"> John Terry</label>
+                        </div>
+                        <div class="trivia-question">
+                            <p>2. In which year was Chelsea FC founded?</p>
+                            <label><input type="radio" name="q2" value="1905"> 1905</label>
+                            <label><input type="radio" name="q2" value="1910"> 1910</label>
+                            <label><input type="radio" name="q2" value="1920"> 1920</label>
+                        </div>
+                        <div class="trivia-question">
+                            <p>3. Who is Chelsea's all-time top scorer?</p>
+                            <label><input type="radio" name="q3" value="Didier Drogba"> Didier Drogba</label>
+                            <label><input type="radio" name="q3" value="Frank Lampard"> Frank Lampard</label>
+                            <label><input type="radio" name="q3" value="Bobby Tambling"> Bobby Tambling</label>
+                        </div>
+                        <button type="submit" class="trivia-submit-btn">Submit Answers</button>
+                    </form>
                 </div>
 
             </div>
