@@ -57,6 +57,9 @@ This site facilitates easy interaction with the club and fellow fans through soc
     - [Fan Zone](#fan-zone)
       - [Design and Features](#design-and-features-4)
       - [Interactive and Responsive Design](#interactive-and-responsive-design)
+    - [Contact Us](#contact-us)
+      - [Design and Features](#design-and-features-5)
+      - [User Interaction and Usability](#user-interaction-and-usability)
 
 # UX
 
@@ -411,5 +414,27 @@ The "Fan Zone" section is a dynamic and interactive area of the website, dedicat
 - On larger screens, the layout of these features is presented in a multi-column format for easy navigation. On smaller screens, the layout shifts to a stacked format for better readability and accessibility.
 - The design adheres to Chelsea FC's color scheme and aesthetic, maintaining visual consistency throughout the site.
 - By combining interactive elements with a user-friendly design, the "Fan Zone" enhances the overall fan experience on the website, making it a go-to destination for Chelsea FC supporters.
+
+[Back to Top](#table-of-contents)
+
+### Contact Us
+
+The "Contact Us" section provides a direct and accessible communication channel for visitors of the website. This essential feature allows fans and users to reach out with inquiries, feedback, or support requests, fostering a stronger connection between Chelsea Football Club and its global fanbase.
+
+#### Design and Features
+
+![Contact Us Section](wireframes/contact-us.png)
+
+- **Accessible Contact Form**: The section includes a user-friendly contact form with fields for name, email, and message. This straightforward approach ensures that reaching out is hassle-free and inclusive for all users.
+  
+- **Responsive Layout**: The form is designed to be responsive, ensuring a seamless experience across various devices. Whether accessed from a mobile phone, tablet, or desktop, the form retains its usability and aesthetic appeal.
+
+- **Chelsea FC Branding**: True to Chelsea FC's color scheme and design language, the "Contact Us" section is both visually pleasing and consistent with the overall website theme. The use of club colors and typography reinforces the brand's identity and enhances the visual continuity of the site.
+
+#### User Interaction and Usability
+
+- Designed with a focus on user interaction, the contact form is straightforward, encouraging users to communicate with ease.
+- The form's layout adapts to different screen sizes, ensuring that it remains functional and aesthetically consistent on any device.
+- The inclusion of this section contributes significantly to the overall user experience of the website, demonstrating the club's commitment to fan engagement and open communication channels.
 
 [Back to Top](#table-of-contents)
