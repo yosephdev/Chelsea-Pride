@@ -41,12 +41,12 @@ h3 {
 /* Header Styles */
 header {
     background-color: #034694;
-    color: white;
+    color: #F5F5F5;
     padding: 0 1rem;
     position: fixed;
     z-index: 99;
     width: 100%;
-    box-shadow: 0 2px 2px #3a3a3a;
+    box-shadow: 0 2px 2px #383838;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -103,7 +103,7 @@ nav a:hover {
 }
 
 #menu>li>a {
-    color: white;
+    color: #F5F5F5;
     padding: 10px;
     transition: background-color 0.3s, color 0.3s;
 }
@@ -111,7 +111,7 @@ nav a:hover {
 /* Hover State */
 #menu>li>a:hover {
     background-color: #0563af;
-    color: #fff;
+    color: #F5F5F5;
 }
 
 /* Active State */
@@ -156,11 +156,15 @@ nav a:hover {
 
 .social-icon {
     margin: 0 10px;
-    color: #C0C0C0;
+    color: #F5F5F5;
 }
 
 .social-icon i {
     font-size: 20px;
+}
+
+.social-icon i:hover {
+    color: #ffd700;
 }
 
 .social-icons {
@@ -720,12 +724,38 @@ main a:hover,
 
 /* Footer Styles */
 footer {
-    background-color: #383838;
-    /* Dark Grey */
+    background-color: #034694;
+    /* Chelsea Blue */
     color: #F5F5F5;
-    padding: 1rem;
+    padding: 20px;
     text-align: center;
 }
+
+
+#social-networks {
+    text-align: center;
+    padding: 20px 0;
+    display: flex;
+    justify-content: space-evenly;
+    list-style-type: none;
+    margin-bottom: 10px;
+}
+
+#social-networks i {
+    font-size: 160%;
+    padding: 5%;
+    color: #F5F5F5;
+}
+
+#social-networks i:hover {
+    color: #D4AF37;
+    /* Metallic Gold */
+}
+
+footer>p {
+    font-size: 14px;
+}
+
 
 
 /* Media Queries */
@@ -860,6 +890,10 @@ footer {
     #contact textarea {
         height: 120px;
     }
+
+    footer>p {
+        font-size: 16px;
+    }
 }
 
 /* Large devices (laptops, 992px and up) */
@@ -891,6 +925,10 @@ footer {
 
     #contact .form-group {
         width: 60%;
+    }
+
+    footer>p {
+        font-size: 16px;
     }
 }
 
@@ -1006,5 +1044,9 @@ footer {
 
     #contact textarea {
         height: 150px;
+    }
+
+    footer>p {
+        font-size: 16px;
     }
 }
