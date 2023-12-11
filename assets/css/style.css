@@ -520,20 +520,26 @@ main a:hover,
     margin-bottom: 30px;
 }
 
-.fan-interactions>div {
-    margin-bottom: 20px;
+#fan-zone .fan-zone-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#fan-zone .fan-podcast,
+#fan-zone .fan-poll {
+    margin: 20px;
     padding: 15px;
-    background-color: #f5f5f5;
-    border-radius: 4px;
+    border-radius: 5px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
-.fan-interactions h3 {
+.fan-zone-content h3 {
     color: #034694;
     margin-bottom: 10px;
 }
 
-.fan-interactions p {
+.fan-zone-content p {
     color: #383838;
     margin-bottom: 10px;
 }
@@ -789,6 +795,16 @@ footer>p {
 
     iframe {
         height: 300px;
+    }
+
+    #fan-zone .fan-zone-content {
+        flex-direction: row;
+        justify-content: space-around;
+    }
+
+    #fan-zone .fan-podcast,
+    #fan-zone .fan-poll {
+        width: calc(50% - 40px); 
     }
 
     /* Timeline */
