@@ -62,9 +62,6 @@ This site facilitates easy interaction with the club and fellow fans through soc
       - [User Interaction and Usability](#user-interaction-and-usability)
     - [Footer](#footer)
       - [Design and Features](#design-and-features-6)
-      - [User Experience and Accessibility](#user-experience-and-accessibility)
-    - [Footer](#footer-1)
-      - [Design and Features](#design-and-features-7)
       - [User Experience and Legal Compliance](#user-experience-and-legal-compliance)
 
 # UX
@@ -442,28 +439,6 @@ The "Contact Us" section provides a direct and accessible communication channel 
 - Designed with a focus on user interaction, the contact form is straightforward, encouraging users to communicate with ease.
 - The form's layout adapts to different screen sizes, ensuring that it remains functional and aesthetically consistent on any device.
 - The inclusion of this section contributes significantly to the overall user experience of the website, demonstrating the club's commitment to fan engagement and open communication channels.
-
-[Back to Top](#table-of-contents)
-
-### Footer
-
-The footer section of the website provides a cohesive conclusion to each page, encapsulating key elements such as social media links and copyright information. This section is designed to offer users additional resources and ways to connect with Chelsea Football Club.
-
-#### Design and Features
-
-![Footer Section](wireframes/footer.png)
-
-- **Social Media Links**: The footer prominently features links to Chelsea FC's social media profiles, allowing fans to easily connect with the club on platforms like Twitter, Facebook, and Instagram. These links are designed for easy access and foster community engagement.
-
-- **Responsive Design**: The footer's layout adapts to various device sizes, ensuring a consistent and accessible user experience whether viewed on a mobile device, tablet, or desktop. This responsive design maintains visual harmony and functionality across all viewing platforms.
-
-- **Club Branding**: Echoing Chelsea FC's branding, the footer incorporates the club's color scheme and aesthetic, contributing to the website's overall thematic consistency. The design choices reinforce the club's identity and resonate with the fanbase.
-
-#### User Experience and Accessibility
-
-- The footer's clear layout and accessible design make it easy for users to navigate and utilize the provided links.
-- By including a well-structured footer, the website ensures that essential information and resources are readily available, enhancing the overall user experience.
-- The placement of social media links in the footer encourages ongoing engagement, allowing fans to stay connected with the club beyond the website.
 
 [Back to Top](#table-of-contents)
 
