@@ -16,9 +16,7 @@ body {
     overflow-x: hidden;
     scroll-behavior: smooth;
     background-color: #F5F5F5;
-    /* Off-White background */
     color: #383838;
-    /* Dark Grey for main body text */
 }
 
 h1,
@@ -34,7 +32,6 @@ h1,
 h2,
 h3 {
     color: #034694;
-    /* Chelsea Blue for headers */
 }
 
 
@@ -87,13 +84,11 @@ nav {
 
 nav a {
     color: #C0C0C0;
-    /* Slate Grey for nav links */
 }
 
 nav a.active,
 nav a:hover {
     color: #D4AF37;
-    /* Metallic Gold for active/hover states */
 }
 
 
@@ -175,13 +170,10 @@ nav a:hover {
 /* Main Content Styles */
 main {
     background-color: #F5F5F5;
-    /* Off-white for a light and clean background */
     color: #383838;
-    /* Dark grey for the main text, offering readability */
     flex-grow: 1;
     padding: 0;
     margin-top: 60px;
-    /* Space at the top to account for fixed header */
     margin-bottom: 0;
 }
 
@@ -230,7 +222,6 @@ main h4,
 main h5,
 main h6 {
     color: #034694;
-    /* Chelsea Blue for headers */
 }
 
 main a,
@@ -264,21 +255,17 @@ main a:hover,
 
 .featured-content div {
     color: #F5F5F5;
-    /* Off-White for text in featured content */
     background-color: rgba(0, 0, 0, 0.6);
-    /* Semi-transparent black background */
     padding: 15px;
     text-align: center;
     flex-basis: 200px;
     flex-grow: 1;
     border: 2px solid #C0C0C0;
-    /* Slate Grey for borders */
 }
 
 /* Hover Effects */
 .featured-content div:hover {
     background-color: rgba(0, 0, 0, 0.7);
-    /* Darken background on hover */
 }
 
 .featured-content h3 {
@@ -297,16 +284,13 @@ main a:hover,
 /* Latest News section */
 #latest-news {
     background-color: #F5F5F5;
-    /* Off-White background */
     color: #383838;
-    /* Dark Grey for text */
     padding: 20px;
     text-align: center;
 }
 
 #latest-news h2 {
     color: #034694;
-    /* Chelsea Blue for headings */
     margin-bottom: 30px;
 }
 
@@ -321,7 +305,6 @@ main a:hover,
 
 .news-article {
     background-color: #FFFFFF;
-    /* White background for article */
     padding: 15px;
     border-radius: 5px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
@@ -330,7 +313,6 @@ main a:hover,
 
 .news-article h3 {
     color: #034694;
-    /* Chelsea Blue for article titles */
     margin-bottom: 10px;
 }
 
@@ -344,9 +326,7 @@ main a:hover,
 
 .read-more-btn {
     background-color: #D4AF37;
-    /* Metallic Gold for buttons */
     color: #FFFFFF;
-    /* White text on buttons */
     border: none;
     padding: 10px 20px;
     border-radius: 4px;
@@ -356,7 +336,6 @@ main a:hover,
 
 .read-more-btn:hover {
     background-color: #b3962f;
-    /* Darker gold on hover */
 }
 
 .news-image,
@@ -371,20 +350,17 @@ main a:hover,
 
 #team-history {
     background-color: #F5F5F5;
-    /* Off-White, or consider a vintage texture or image */
     padding: 20px;
     text-align: center;
 }
 
 #team-history h2 {
     color: #034694;
-    /* Chelsea Blue */
     margin-bottom: 30px;
 }
 
 .history-intro p {
     color: #383838;
-    /* Dark Grey */
     margin-bottom: 20px;
 }
 
@@ -402,7 +378,6 @@ main a:hover,
 }
 
 /* Timeline */
-
 .timeline-container {
     text-align: center;
     margin: 40px 0;
@@ -410,7 +385,6 @@ main a:hover,
 
 .timeline-container h3 {
     color: #034694;
-    /* Chelsea Blue */
     margin-bottom: 20px;
 }
 
@@ -433,19 +407,16 @@ main a:hover,
     background-color: #F5F5F5;
     box-shadow: 0 3px 6px rgba(0, 0, 0, 0.1);
     border-left: 3px solid #034694;
-    /* Chelsea Blue */
     border-radius: 4px;
     text-align: left;
 }
 
 .timeline-content h4 {
     color: #034694;
-    /* Chelsea Blue */
 }
 
 .timeline-content p {
     color: #383838;
-    /* Dark Grey */
 }
 
 /* Notable Figures */
@@ -456,7 +427,6 @@ main a:hover,
 
 .notable-figures h3 {
     color: #034694;
-    /* Chelsea Blue */
     margin-bottom: 20px;
 }
 
@@ -485,13 +455,11 @@ main a:hover,
 
 .figure-card h4 {
     color: #034694;
-    /* Chelsea Blue */
     margin-top: 10px;
 }
 
 .figure-card p {
     color: #383838;
-    /* Dark Grey */
     margin-top: 10px;
 }
 
@@ -503,7 +471,6 @@ main a:hover,
 
 .historic-matches h3 {
     color: #034694;
-    /* Chelsea Blue */
     margin-bottom: 20px;
 }
 
@@ -533,28 +500,23 @@ main a:hover,
 
 .match-info h4 {
     color: #034694;
-    /* Chelsea Blue */
     margin-bottom: 10px;
 }
 
 .match-info p {
     color: #383838;
-    /* Dark Grey */
 }
 
 /* Fan Zone */
 #fan-zone {
     background-color: #F5F5F5;
-    /* Off-White */
     color: #383838;
-    /* Dark Grey */
     padding: 20px;
     text-align: center;
 }
 
 #fan-zone h2 {
     color: #034694;
-    /* Chelsea Blue */
     margin-bottom: 30px;
 }
 
@@ -568,7 +530,6 @@ main a:hover,
 
 .fan-interactions h3 {
     color: #034694;
-    /* Chelsea Blue */
     margin-bottom: 10px;
 }
 
@@ -580,7 +541,6 @@ main a:hover,
 .forum-link {
     display: inline-block;
     background-color: #034694;
-    /* Chelsea Blue */
     color: #F5F5F5;
     padding: 10px 20px;
     border-radius: 4px;
@@ -590,7 +550,6 @@ main a:hover,
 
 .forum-link:hover {
     background-color: #02325f;
-    /* Darker blue on hover */
 }
 
 .fan-poll {
@@ -612,7 +571,6 @@ main a:hover,
 
 .poll-submit-btn {
     background-color: #034694;
-    /* Chelsea Blue */
     color: #F5F5F5;
     border: none;
     padding: 10px 20px;
@@ -623,7 +581,6 @@ main a:hover,
 
 .poll-submit-btn:hover {
     background-color: #02325f;
-    /* Darker blue on hover */
 }
 
 /* Fan Trivia */
@@ -637,7 +594,6 @@ main a:hover,
 
 .fan-trivia h3 {
     color: #034694;
-    /* Chelsea Blue */
     margin-bottom: 10px;
 }
 
@@ -651,9 +607,7 @@ main a:hover,
 
 .trivia-submit-btn {
     background-color: #034694;
-    /* Chelsea Blue */
     color: #F5F5F5;
-    /* White */
     border: none;
     padding: 10px 20px;
     border-radius: 4px;
@@ -663,22 +617,19 @@ main a:hover,
 
 .trivia-submit-btn:hover {
     background-color: #02325f;
-    /* Darker blue on hover */
 }
 
 #contact {
     background-color: #F5F5F5;
-    /* Off-White background */
     color: #383838;
-    /* Dark Grey text */
     padding: 20px;
     text-align: center;
 }
 
 #contact h2 {
     color: #034694;
-    /* Chelsea Blue */
     margin-bottom: 20px;
+    align-items: center;
 }
 
 #contact .form-group {
@@ -697,7 +648,6 @@ main a:hover,
     padding: 10px;
     border-radius: 4px;
     border: 1px solid #C0C0C0;
-    /* Slate Grey */
 }
 
 #contact textarea {
@@ -707,7 +657,6 @@ main a:hover,
 
 #contact .submit-btn {
     background-color: #034694;
-    /* Chelsea Blue */
     color: #FFFFFF;
     /* White */
     border: none;
@@ -719,13 +668,11 @@ main a:hover,
 
 #contact .submit-btn:hover {
     background-color: #02325f;
-    /* Darker blue on hover */
 }
 
 /* Footer Styles */
 footer {
     background-color: #034694;
-    /* Chelsea Blue */
     color: #F5F5F5;
     padding: 20px;
     text-align: center;
@@ -749,7 +696,6 @@ footer {
 
 #social-networks i:hover {
     color: #D4AF37;
-    /* Metallic Gold */
 }
 
 footer>p {
@@ -874,7 +820,6 @@ footer>p {
         height: 2px;
         width: 100%;
         background-color: #D4AF37;
-        /* Metallic Gold for the timeline */
         z-index: 0;
     }
 
@@ -1029,7 +974,6 @@ footer>p {
         height: 2px;
         width: 100%;
         background-color: #D4AF37;
-        /* Metallic Gold for the timeline */
         z-index: 0;
     }
 
