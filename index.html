@@ -260,7 +260,7 @@
         <!-- Fan Zone -->
         <section id="fan-zone">
             <h2>Fan Zone</h2>
-            <div class="fan-interactions">
+            <div class="fan-zone-content">
                 <!-- Fan Polls -->
                 <div class="fan-poll">
                     <h3>Weekly Fan Poll</h3>
@@ -284,47 +284,70 @@
                         <button type="submit" class="poll-submit-btn">Vote</button>
                     </form>
                 </div>
-
-                <!-- Fan Forums -->
-                <div class="fan-forum">
-                    <h3>Discussion Forum</h3>
-                    <p>Join the conversation with fellow fans.</p>
+                
+                <!-- Fan Podcast -->
+                <aside class="fan-podcast">
+                    <h3>Fan Podcast</h3>
+                    <audio controls>
+                        <source src="https://cdn.poddingshed.com/podcasts/the-podding-shed-99-we-pod-when-we-want-2.mp3"
+                            type="audio/mpeg">
+                        Your browser does not support the audio element.                        
+                    </audio>
                     <br>
-                    <iframe src="https://www.chelseafc.com/en/fans-forum"
-                        title="The Chelsea Football Club Fans' Forum home page" width="100%" height="300"></iframe>
+                    <audio controls>
+                        <source src="https://cdn.poddingshed.com/podcasts/the-podding-shed-98-did-you-even-watch-napoli-last-season.mp3"
+                            type="audio/mpeg">
+                        Your browser does not support the audio element.
+                    </audio>
                     <br>
-                    <br>
-                    <a href="https://www.chelseafc.com/en/fans-forum" target="_blank" class="forum-link">Visit Fans
-                        Forum</a>
-                </div>
+                    <audio controls>
+                        <source src="https://cdn.poddingshed.com/podcasts/the-podding-shed-97-if-only-shane-macgowan-had-sorted-his-teeth-out.mp3"
+                            type="audio/mpeg">
+                        Your browser does not support the audio element.
+                    </audio>
+                </aside>
+            </div>
 
-                <!-- Fan Trivia -->
-                <div class="fan-trivia">
-                    <h3>Chelsea Trivia</h3>
-                    <p>Test your knowledge about the club's history!</p>
-                    <form id="trivia-form" method="post" action="https://formdump.codeinstitute.net">
-                        <div class="trivia-question">
-                            <p>1. Who scored the winning penalty in the 2012 Champions League Final?</p>
-                            <label><input type="radio" name="q1" value="Didier Drogba"> Didier Drogba</label>
-                            <label><input type="radio" name="q1" value="Frank Lampard"> Frank Lampard</label>
-                            <label><input type="radio" name="q1" value="John Terry"> John Terry</label>
-                        </div>
-                        <div class="trivia-question">
-                            <p>2. In which year was Chelsea FC founded?</p>
-                            <label><input type="radio" name="q2" value="1905"> 1905</label>
-                            <label><input type="radio" name="q2" value="1910"> 1910</label>
-                            <label><input type="radio" name="q2" value="1920"> 1920</label>
-                        </div>
-                        <div class="trivia-question">
-                            <p>3. Who is Chelsea's all-time top scorer?</p>
-                            <label><input type="radio" name="q3" value="Didier Drogba"> Didier Drogba</label>
-                            <label><input type="radio" name="q3" value="Frank Lampard"> Frank Lampard</label>
-                            <label><input type="radio" name="q3" value="Bobby Tambling"> Bobby Tambling</label>
-                        </div>
-                        <button type="submit" class="trivia-submit-btn">Submit Answers</button>
-                    </form>
-                </div>
 
+            <!-- Fan Forums -->
+            <div class="fan-forum">
+                <h3>Discussion Forum</h3>
+                <p>Join the conversation with fellow fans.</p>
+                <br>
+                <iframe src="https://www.chelseafc.com/en/fans-forum"
+                    title="The Chelsea Football Club Fans' Forum home page" width="100%" height="300"></iframe>
+                <br>
+                <br>
+                <a href="https://www.chelseafc.com/en/fans-forum" target="_blank" class="forum-link">Visit Fans
+                    Forum</a>
+            </div>
+
+            <!-- Fan Trivia -->
+            <div class="fan-trivia">
+                <h3>Chelsea Trivia</h3>
+                <p>Test your knowledge about the club's history!</p>
+                <form id="trivia-form" method="post" action="https://formdump.codeinstitute.net">
+                    <div class="trivia-question">
+                        <p>1. Who scored the winning penalty in the 2012 Champions League Final?</p>
+                        <label><input type="radio" name="q1" value="Didier Drogba"> Didier Drogba</label>
+                        <label><input type="radio" name="q1" value="Frank Lampard"> Frank Lampard</label>
+                        <label><input type="radio" name="q1" value="John Terry"> John Terry</label>
+                    </div>
+                    <div class="trivia-question">
+                        <p>2. In which year was Chelsea FC founded?</p>
+                        <label><input type="radio" name="q2" value="1905"> 1905</label>
+                        <label><input type="radio" name="q2" value="1910"> 1910</label>
+                        <label><input type="radio" name="q2" value="1920"> 1920</label>
+                    </div>
+                    <div class="trivia-question">
+                        <p>3. Who is Chelsea's all-time top scorer?</p>
+                        <label><input type="radio" name="q3" value="Didier Drogba"> Didier Drogba</label>
+                        <label><input type="radio" name="q3" value="Frank Lampard"> Frank Lampard</label>
+                        <label><input type="radio" name="q3" value="Bobby Tambling"> Bobby Tambling</label>
+                    </div>
+                    <button type="submit" class="trivia-submit-btn">Submit Answers</button>
+                </form>
+            </div>
             </div>
         </section>
 
