@@ -552,6 +552,13 @@ main a:hover,
     background-color: #02325f;
 }
 
+iframe {
+    width: 100%;
+    max-width: 1200px;
+    height: 400px;
+    border: none;
+}
+
 .fan-poll {
     margin: 20px 0;
     padding: 15px;
@@ -778,6 +785,10 @@ footer>p {
 
     .video-image {
         height: 200px;
+    }
+
+    iframe {
+        height: 300px;
     }
 
     /* Timeline */
