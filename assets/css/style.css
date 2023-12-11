@@ -524,6 +524,7 @@ main a:hover,
     display: flex;
     flex-direction: column;
     align-items: center;
+    margin-bottom: 20px;
 }
 
 #fan-zone .fan-podcast,
@@ -573,14 +574,30 @@ iframe {
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
-.fan-poll form {
-    margin-top: 15px;
+#submit-form {
+    margin-bottom: 15px;
 }
 
-.fan-poll label {
-    display: block;
+#submit-form div {
     margin-bottom: 10px;
 }
+
+.fan-poll .poll-options {
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.fan-poll p {
+    margin-bottom: 10px;
+}
+
+.fan-poll .poll-options label {
+    display: inline-block;
+    margin-right: 10px;
+    vertical-align: middle;
+    margin-bottom: 10px;
+}
+
 
 .poll-submit-btn {
     background-color: #034694;
@@ -804,7 +821,7 @@ footer>p {
 
     #fan-zone .fan-podcast,
     #fan-zone .fan-poll {
-        width: calc(50% - 40px); 
+        width: calc(50% - 40px);
     }
 
     /* Timeline */
