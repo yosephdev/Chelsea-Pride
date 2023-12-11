@@ -323,23 +323,24 @@
             </div>
         </section>
 
+
+        <!-- Contact -->
         <section id="contact">
             <h2>Contact Us</h2>
-            <form action="submit_contact_form_url" method="post">
-                <!-- Replace with your form handler URL -->
+            <form id="contact-form" action="https://formdump.codeinstitute.net" method="post">                
                 <div class="form-group">
-                    <label for="name">Name:</label>
-                    <input type="text" id="name" name="name" required>
+                    <label for="name">Name</label>
+                    <input type="text" id="name" name="name" class="text-input" required autocomplete="name">                    
                 </div>
                 <div class="form-group">
-                    <label for="email">Email:</label>
-                    <input type="email" id="email" name="email" required>
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email" class="text-input" required>                    
                 </div>
                 <div class="form-group">
-                    <label for="message">Message:</label>
-                    <textarea id="message" name="message" required></textarea>
+                    <label for="message">Message</label>
+                    <textarea id="message" name="message" class="text-input" required></textarea>
                 </div>
-                <button type="submit" class="submit-btn">Send Message</button>
+                <button type="submit" class="submit-btn">Send Message</button>                
             </form>
         </section>
     </main>
