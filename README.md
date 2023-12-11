@@ -96,11 +96,7 @@ This site facilitates easy interaction with the club and fellow fans through soc
 - The site should be a trusted source for accurate Chelsea FC information.
 - Ensure the website is user-friendly and accessible across devices.
 
-\
-&nbsp;
 [Back to Top](#table-of-contents)
-\
-&nbsp;
 
 # Design Choices
 
@@ -155,11 +151,7 @@ Responsive breakpoints will be defined based on the updated [Bootstrap](https://
 | x-large     | ≥1200px    |
 | xx-large    | ≥1400px    |
 
-\
-&nbsp;
 [Back to Top](#table-of-contents)
-\
-&nbsp;
 
 # Wireframes
 
@@ -175,11 +167,7 @@ Below are the wireframes for "Chelsea Pride" across different devices:
 
 ### [Phone Wireframe](wireframes/Wireframe-phnne.png "Phone wireframe")
 
-\
-&nbsp;
 [Back to Top](#table-of-contents)
-\
-&nbsp;
 
 # Features
 
@@ -250,11 +238,7 @@ The navigation bar has been thoughtfully designed to be fully responsive, accomm
 
 The revamped navigation bar significantly elevates the usability and visual appeal of the Chelsea Pride website, aligning with contemporary web design standards and ensuring an engaging user experience across all devices.
 
-\
-&nbsp;
 [Back to Top](#table-of-contents)
-\
-&nbsp;
 
 ## Main Banner with Site Title
 
@@ -405,11 +389,13 @@ The "Fan Zone" section is a dynamic and interactive area of the website, dedicat
 
 ![Fan Zone Section](wireframes/fan-zone.png)
 
-- **Weekly Fan Poll**: Fans have the opportunity to voice their opinions through weekly polls, such as voting for their player of the match. This interactive poll uses radio buttons for voting, making it user-friendly and engaging.
+- **Weekly Fan Poll**: In this feature, fans can express their opinions by voting in weekly polls, such as selecting their player of the match. These polls use radio buttons to ensure a user-friendly and straightforward voting experience.
+  
+- **Fan Podcasts**: To enhance the fan experience, this section also includes fan-created podcasts. These audio features offer insights, commentary, and discussions about all things Chelsea, adding an auditory dimension to the fan zone.
 
 - **Chelsea Trivia**: This feature tests fans' knowledge about the club's history with a series of trivia questions. The trivia adds an educational and fun dimension to the fan experience, challenging supporters to recall significant moments and facts about the club.
 
-- **Discussion Forum**: A platform for fans to engage in conversations about the club. Whether it's discussing the latest match, transfer rumors, or historical moments, the forum serves as a space for lively discussions and community bonding.
+- **Discussion Forum**: A platform for fans to engage in conversations about the club. Integrated via an iframe, this feature connects fans to the Chelsea FC Fan Forum, where they can participate in discussions about the latest matches, transfer rumors, and other club-related topics.
 
 #### Interactive and Responsive Design
 
