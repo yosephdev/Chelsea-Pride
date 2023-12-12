@@ -1,4 +1,4 @@
-# Chelsea Pride
+# Chelsea Pride Website
 
 # Goal for this Project
 
@@ -8,7 +8,7 @@ This site facilitates easy interaction with the club and fellow fans through soc
 
 # Table of Contents
 
-- [Chelsea Pride](#chelsea-pride)
+- [Chelsea Pride Website](#chelsea-pride-website)
 - [Goal for this Project](#goal-for-this-project)
 - [Table of Contents](#table-of-contents)
 - [UX](#ux)
@@ -63,6 +63,11 @@ This site facilitates easy interaction with the club and fellow fans through soc
     - [Footer](#footer)
       - [Design and Features](#design-and-features-6)
       - [User Experience and Legal Compliance](#user-experience-and-legal-compliance)
+  - [Features to be Implemented](#features-to-be-implemented)
+  - [Technologies Used](#technologies-used)
+  - [Languages](#languages)
+  - [Libraries \& Frameworks](#libraries--frameworks)
+  - [Tools](#tools)
 
 # UX
 
@@ -447,5 +452,37 @@ The website's footer section serves as a concluding element on each page, provid
 - The footer's user-friendly design includes clearly labeled social media icons, making it simple for users to find and follow Chelsea FC on various platforms.
 - A copyright statement, '© 2023 Chelsea Pride. All rights reserved.', is prominently displayed, acknowledging the site's legal rights and ownership.
 - The incorporation of this well-designed footer not only enhances the aesthetic appeal but also contributes to the site's functionality, offering users additional resources and avenues for engagement with the club.
+
+[Back to Top](#table-of-contents)
+
+## Features to be Implemented
+
+- **Contact Form**: Integrate a functional form for direct communication with website administrators.
+- **Sponsor Links**: Include links to official Chelsea FC sponsors' websites.
+
+[Back to Top](#table-of-contents)
+
+## Technologies Used
+
+## Languages
+
+- [HTML](https://en.wikipedia.org/wiki/HTML "HTML") - Structuring web content.
+
+- [CSS](https://en.wikipedia.org/wiki/CSS "CSS") - Styling HTML content.
+
+## Libraries & Frameworks
+
+- [Google Fonts](https://fonts.google.com/ "Google Fonts") - Diverse and appealing font styles.
+
+- [Font Awesome](https://fontawesome.com/ "Font Awesome") - Wide range of icons.
+
+## Tools
+
+- [Codeanywhere](https://codeanywhere.com/ "Codeanywhere") - Cloud IDE used for website development.
+- [Balsamiq](https://balsamiq.com/wireframes/ "Balsamiq") - Wireframing during the design phase.
+- [W3C HTML Validation Service](https://validator.w3.org/ "W3C HTML") - Validating HTML content.
+- [W3C CSS Validation Service](https://jigsaw.w3.org/css-validator/ "W3C CSS") - Validating CSS styles.
+- [Box Shadow Generator](https://html-css-js.com/css/generator/box-shadow/ "html-css-js.com") - CSS box shadows.
+- [Unsplash](https://unsplash.com/ "Unsplash") - High-quality, royalty-free images.
 
 [Back to Top](#table-of-contents)
