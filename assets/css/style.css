@@ -790,27 +790,46 @@ main a:hover,
     /* Bottom margin for spacing */
 }
 
+.fan-forum {
+    text-align: center;
+    /* Center aligns the content */
+}
+
+.forum-iframe {
+    width: 100%;
+    /* Makes the iframe responsive */
+    max-width: 800px;
+    /* Sets maximum width for larger screens */
+    height: 300px;
+    /* Sets the height of the iframe */
+    margin-bottom: 10px;
+    /* Adds space between the iframe and the link */
+}
+
 .forum-link {
-    display: inline-block;
-    /* Changed from block to inline-block */
+    display: block;
+    /* Display link as block for full width */
     background-color: #034694;
-    /* Chelsea Blue for the button background */
+    /* Chelsea Blue for button */
     color: #F5F5F5;
     /* Off-White text color */
     padding: 10px 20px;
-    /* Padding around the text */
+    /* Padding for the button */
     border-radius: 4px;
-    /* Rounded corners */
+    /* Rounded corners for the button */
     text-decoration: none;
     /* No underline for the link */
+    margin: 0 auto;
+    /* Center aligns the link */
+    width: fit-content;
+    /* Adjust width to fit the content */
     transition: background-color 0.3s ease;
-    /* Smooth color transition on hover */
-    border: none;
-    /* Remove any default border */
-    cursor: pointer;
-    /* Change cursor to pointer on hover */
-    margin-top: 10px;
-    /* Add a little space above the button */
+    /* Transition for hover effect */
+}
+
+.forum-link:hover {
+    background-color: #02325f;
+    /* Darker blue on hover */
 }
 
 .fan-forum>h3 {
@@ -826,17 +845,6 @@ main a:hover,
 .forum-link:hover {
     background-color: #02325f;
     /* Darker blue on hover */
-}
-
-.forum-iframe {
-    width: 80%;
-    /* Full width of the container */
-    max-width: 1200px;
-    /* Maximum width */
-    height: 300px;
-    /* Height of the iframe */
-    border: none;
-    /* No border for the iframe */
 }
 
 .fan-poll {
