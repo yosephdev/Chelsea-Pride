@@ -1094,7 +1094,7 @@ footer>p {
 @media screen and (min-width: 768px) {
     nav {
         display: flex;
-        align-items: left;
+        align-items: flex-start;
         justify-content: center;
         position: relative;
         box-shadow: none;
