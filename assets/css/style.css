@@ -2,216 +2,307 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Raleway:wght@400;700&display=swap');
 
 /* Global Styles */
+/* Applying a reset to margin and padding for all elements to ensure consistent layout across browsers */
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    /* Ensures padding and border are included in element's total width and height */
 }
 
+/* Base styling for body element */
 body {
     display: flex;
     flex-direction: column;
     min-height: 100vh;
+    /* Ensures the body takes up at least the full viewport height */
     font-family: 'Lato', sans-serif;
+    /* Default font for the body */
     overflow-x: hidden;
+    /* Prevents horizontal scrolling */
     scroll-behavior: smooth;
+    /* Smooth scrolling for anchor links */
     background-color: #F5F5F5;
+    /* Off-White background color for the body */
     color: #383838;
+    /* Default text color */
 }
-
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-    font-family: 'Raleway', sans-serif;
-}
-
-h1,
-h2,
-h3 {
-    color: #034694;
-}
-
 
 /* Header Styles */
+/* Styling for the header, including background color and layout */
 header {
     background-color: #034694;
+    /* Chelsea Blue for the header background */
     color: #F5F5F5;
+    /* Off-White text color */
     padding: 0 1rem;
+    /* Padding on left and right */
     position: fixed;
+    /* Header is fixed at the top of the viewport */
     z-index: 99;
+    /* Ensures header stays on top of other elements */
     width: 100%;
+    /* Header spans full width of the viewport */
     box-shadow: 0 2px 2px #383838;
+    /* Shadow for a slight 3D effect */
     display: flex;
+    /* Flexbox for aligning child elements */
     justify-content: space-between;
+    /* Space between logo and navigation */
     align-items: center;
+    /* Vertically center align elements inside header */
 }
 
+/* Header links styling */
 header a {
     text-decoration: none;
+    /* Removes underline from links */
     color: inherit;
+    /* Inherits color from parent element */
 }
 
 /* Header Container */
+/* Container for header elements to manage layout */
 .header-container {
     display: flex;
+    /* Flexbox for horizontal layout */
     justify-content: space-between;
+    /* Distribute space between logo and menu */
     align-items: center;
+    /* Center-align items vertically */
     width: 100%;
+    /* Full width of the header */
 }
 
 /* Logo Container */
+/* Container for the logo to control its size and alignment */
 .logo-container img {
     max-width: 100px;
+    /* Maximum width of logo */
     height: auto;
+    /* Height adjusts automatically to maintain aspect ratio */
 }
 
 /* Navigation Bar */
+/* Hidden by default, shown in media queries for larger screens */
 nav {
     display: none;
+    /* Hidden on small screens */
     flex-direction: column;
+    /* Stack items vertically */
     align-items: start;
+    /* Align items to the start of the container */
     background-color: #034694;
+    /* Chelsea Blue for the nav background */
     position: absolute;
+    /* Absolute position */
     top: 100%;
+    /* Positioned right below the header */
     left: 0;
+    /* Align to the left side */
     width: 100%;
+    /* Full width */
     padding: 1rem;
+    /* Padding inside the nav */
     box-shadow: 0 2px 2px #3a3a3a;
+    /* Shadow for depth */
 }
 
 nav a {
     color: #C0C0C0;
+    /* Slate Grey for nav links */
 }
 
 nav a.active,
 nav a:hover {
     color: #D4AF37;
+    /* Metallic Gold for active or hover state */
 }
 
-
 /* Menu Item Styles */
+/* Styling for individual menu items */
 #menu>li {
     margin-bottom: 1em;
+    /* Space below each menu item */
 }
 
 #menu>li>a {
     color: #F5F5F5;
+    /* Off-White for menu link text */
     padding: 10px;
+    /* Padding around links */
     transition: background-color 0.3s, color 0.3s;
+    /* Transition for hover effect */
 }
 
 /* Hover State */
+/* Changes background and text color on hover */
 #menu>li>a:hover {
     background-color: #0563af;
+    /* Lighter blue for hover background */
     color: #F5F5F5;
+    /* Off-White text color */
 }
 
 /* Active State */
+/* Styling for the active menu item */
 #menu>li>a.active,
 #menu>li>a:hover {
     background-color: #034694;
+    /* Chelsea Blue for active state */
     color: #ffd700;
+    /* Gold color for active text */
     border-bottom: 2px solid #ffd700;
+    /* Gold underline for active item */
 }
 
 #menu {
     font-size: 110%;
+    /* Slightly larger font size */
     letter-spacing: 4px;
+    /* Spacing between letters */
     list-style-type: none;
+    /* Removes default list styling */
 }
 
 /* Hamburger Menu and Social Icons */
 .nav-toggle {
     display: none;
+    /* Hidden by default, shown in media queries */
 }
 
 .hamburger-menu {
     display: flex;
+    /* Flexbox for layout */
     cursor: pointer;
+    /* Pointer cursor on hover */
     flex-direction: column;
+    /* Stack elements vertically */
     justify-content: space-around;
+    /* Space between hamburger lines */
     width: 30px;
+    /* Width of the menu icon */
     height: 25px;
+    /* Height of the menu icon */
 }
 
 .hamburger-menu span {
     display: block;
+    /* Block level element */
     height: 3px;
+    /* Height of each line */
     width: 100%;
+    /* Full width of the parent */
     background: #C0C0C0;
+    /* Slate Grey for lines */
     border-radius: 3px;
+    /* Rounded corners for lines */
 }
 
 .nav-toggle:checked+.hamburger-menu+nav {
     display: flex;
+    /* Show the nav when hamburger is toggled */
 }
 
 .social-icon {
     margin: 0 10px;
+    /* Space around each icon */
     color: #F5F5F5;
+    /* Off-White for icons */
 }
 
 .social-icon i {
     font-size: 20px;
+    /* Size of icons */
 }
 
 .social-icon i:hover {
     color: #ffd700;
+    /* Gold color on hover */
 }
 
 .social-icons {
     display: none;
+    /* Hidden by default, shown in media queries */
 }
 
 
 /* Main Content Styles */
+/* General styling for the main content area */
 main {
     background-color: #F5F5F5;
+    /* Off-white background */
     color: #383838;
+    /* Dark grey for text */
     flex-grow: 1;
+    /* Allows the main content to grow and occupy available space */
     padding: 0;
+    /* No padding */
     margin-top: 60px;
+    /* Space to accommodate the fixed header */
     margin-bottom: 0;
+    /* No extra space at the bottom */
 }
 
 /* Style for the main banner and sections */
+/* Common styling for main banner and news section */
 .main-banner,
 #latest-news {
     text-align: left;
+    /* Align text to the left */
     margin-bottom: 20px;
+    /* Space below the banner and news section */
 }
 
 .main-banner {
     background-image: url('../images/banner-image.jpg');
+    /* Banner background image */
     background-size: cover;
+    /* Cover the entire area of the banner */
     background-position: center;
+    /* Center the background image */
     position: relative;
+    /* Relative positioning for pseudo-elements */
     text-align: center;
+    /* Center align text within the banner */
     display: flex;
+    /* Flexbox for centering content */
     align-items: center;
+    /* Vertically center content */
     justify-content: center;
+    /* Horizontally center content */
     padding: 100px 20px;
+    /* Padding for the banner */
     margin-bottom: 50px;
+    /* Space below the banner */
 }
 
 .main-banner h1 {
     color: #F5F5F5;
+    /* Off-White for the banner text */
     font-size: 32px;
+    /* Font size for the banner text */
     z-index: 2;
+    /* Ensure text is above the overlay */
 }
 
 .main-banner::before {
     content: '';
+    /* Pseudo-element for overlay */
     position: absolute;
+    /* Absolute positioning */
     top: 0;
+    /* Top edge of the banner */
     right: 0;
+    /* Right edge of the banner */
     bottom: 0;
+    /* Bottom edge of the banner */
     left: 0;
+    /* Left edge of the banner */
     background: rgba(0, 0, 0, 0.5);
+    /* Semi-transparent black overlay */
     z-index: 1;
+    /* Below the text */
 }
 
 
@@ -222,532 +313,780 @@ main h4,
 main h5,
 main h6 {
     color: #034694;
+    /* Chelsea Blue for headers */
 }
 
 main a,
 .button,
 .btn {
     background-color: #D4AF37;
+    /* Metallic Gold for buttons */
     color: #ffffff;
+    /* White for button text */
     border: none;
+    /* No border for buttons */
     padding: 10px 20px;
+    /* Padding for buttons */
     text-transform: uppercase;
+    /* Uppercase text for buttons */
     border-radius: 4px;
+    /* Rounded corners for buttons */
     transition: background-color 0.3s ease;
+    /* Smooth transition for hover effect */
 }
 
 main a:hover,
 .button:hover,
 .btn:hover {
     background-color: #b3962f;
+    /* Darker gold on hover */
 }
 
-/* Featured section */
+/* Featured Section - Styles for the featured content area */
 .featured-content {
     background: url(../images/stamford-bridge.jpg) no-repeat center/cover;
+    /* Background image with cover fit */
     display: flex;
+    /* Flexbox for layout */
     flex-wrap: wrap;
+    /* Allows items to wrap in a new line */
     margin-top: 30px;
+    /* Top margin for spacing */
     padding: 0;
+    /* No padding */
     margin-bottom: 20px;
+    /* Bottom margin for spacing */
 }
-
 
 .featured-content div {
     color: #F5F5F5;
+    /* Off-White text color for contrast */
     background-color: rgba(0, 0, 0, 0.6);
+    /* Semi-transparent black background */
     padding: 15px;
+    /* Padding for content inside each div */
     text-align: center;
+    /* Center align the text */
     flex-basis: 200px;
+    /* Base width for each flex item */
     flex-grow: 1;
+    /* Allow flex items to grow if needed */
     border: 2px solid #C0C0C0;
+    /* Slate Grey border for each item */
 }
 
-/* Hover Effects */
+/* Hover Effects for featured content divs */
 .featured-content div:hover {
     background-color: rgba(0, 0, 0, 0.7);
+    /* Darken the background on hover */
 }
 
 .featured-content h3 {
     color: #D4AF37;
+    /* Metallic Gold for sub-headings */
 }
 
 .featured-content p {
     color: #C0C0C0;
+    /* Slate Grey for text */
 }
-
 
 .featured-content i {
     color: #C0C0C0;
+    /* Slate Grey for icons */
 }
 
-/* Latest News section */
+/* Latest News Section */
+/* Styles for the Latest News section of the website */
 #latest-news {
     background-color: #F5F5F5;
+    /* Off-White background */
     color: #383838;
+    /* Dark Grey for text */
     padding: 20px;
+    /* Padding around the section */
     text-align: center;
+    /* Center align text */
 }
 
 #latest-news h2 {
     color: #034694;
+    /* Chelsea Blue for heading */
     margin-bottom: 30px;
+    /* Bottom margin for spacing */
 }
 
 .news-multimedia-container {
     display: flex;
+    /* Flexbox for layout */
     flex-direction: column;
+    /* Items in a column */
 }
 
 .news-multimedia {
     margin-bottom: 20px;
+    /* Bottom margin for each multimedia item */
 }
 
 .news-article {
     background-color: #FFFFFF;
+    /* White background for articles */
     padding: 15px;
+    /* Padding inside each article */
     border-radius: 5px;
+    /* Rounded corners */
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    /* Box shadow for depth */
     margin-bottom: 20px;
+    /* Bottom margin for spacing */
 }
 
 .news-article h3 {
     color: #034694;
+    /* Chelsea Blue for article title */
     margin-bottom: 10px;
+    /* Bottom margin for spacing */
 }
 
 .news-article p {
     margin-bottom: 15px;
+    /* Bottom margin for paragraph spacing */
 }
 
 .news-article img {
     margin-bottom: 15px;
+    /* Bottom margin below images */
 }
 
 .read-more-btn {
     background-color: #D4AF37;
+    /* Metallic Gold for buttons */
     color: #FFFFFF;
+    /* White text on buttons */
     border: none;
+    /* No border */
     padding: 10px 20px;
+    /* Padding inside buttons */
     border-radius: 4px;
+    /* Rounded corners for buttons */
     cursor: pointer;
+    /* Pointer cursor for buttons */
     transition: background-color 0.3s ease;
+    /* Smooth transition on hover */
 }
 
 .read-more-btn:hover {
     background-color: #b3962f;
+    /* Darker gold on hover */
 }
 
 .news-image,
 .video-image {
     width: 100%;
+    /* Full width for responsiveness */
     height: auto;
+    /* Auto height to maintain aspect ratio */
 }
 
-.video-placeholder {
-    text-align: center;
-}
-
+/* Team History Section - Styles for the Team History section */
 #team-history {
     background-color: #F5F5F5;
+    /* Off-White background for consistency */
     padding: 20px;
+    /* Padding for spacing */
     text-align: center;
+    /* Center aligning the text */
 }
 
 #team-history h2 {
     color: #034694;
+    /* Chelsea Blue for section heading */
     margin-bottom: 30px;
+    /* Bottom margin for spacing */
 }
 
 .history-intro p {
     color: #383838;
+    /* Dark Grey for text */
     margin-bottom: 20px;
+    /* Bottom margin for paragraph */
 }
 
+/* Additional sub-sections in Team History for layout */
 .timeline-container,
 .notable-figures,
 .historic-matches {
     margin-bottom: 40px;
+    /* Consistent bottom margin for each section */
 }
 
 .figure-profiles {
     display: flex;
+    /* Flexbox for layout */
     flex-wrap: wrap;
+    /* Wrap items to next line on smaller screens */
     justify-content: center;
+    /* Center align the items */
     gap: 20px;
+    /* Space between items */
 }
 
-/* Timeline */
+/* Timeline Section - Styles for the timeline within Team History */
 .timeline-container {
     text-align: center;
+    /* Center aligning text */
     margin: 40px 0;
+    /* Top and bottom margin for spacing */
 }
 
 .timeline-container h3 {
     color: #034694;
+    /* Chelsea Blue for sub-heading */
     margin-bottom: 20px;
+    /* Bottom margin for sub-heading */
 }
 
 .timeline {
     display: flex;
+    /* Flexbox for layout */
     flex-direction: column;
+    /* Stack items vertically */
     align-items: flex-start;
+    /* Align items to the start */
     padding: 0;
+    /* No padding */
     list-style: none;
+    /* Removing default list styling */
 }
 
 .timeline-event {
     position: relative;
+    /* Relative positioning for pseudo-elements */
     margin-bottom: 20px;
+    /* Bottom margin for each event */
 }
 
 .timeline-content {
     display: inline-block;
+    /* Inline-block for layout */
     padding: 10px;
+    /* Padding for content */
     background-color: #F5F5F5;
+    /* Off-White background for content */
     box-shadow: 0 3px 6px rgba(0, 0, 0, 0.1);
+    /* Box shadow for depth */
     border-left: 3px solid #034694;
+    /* Chelsea Blue left border for emphasis */
     border-radius: 4px;
+    /* Rounded corners */
     text-align: left;
+    /* Left align text */
 }
 
 .timeline-content h4 {
     color: #034694;
+    /* Chelsea Blue for event titles */
 }
 
 .timeline-content p {
     color: #383838;
+    /* Dark Grey for text */
 }
 
-/* Notable Figures */
+/* Notable Figures - Styles for the notable figures section in Team History */
 .notable-figures {
     text-align: center;
+    /* Center aligning text */
     margin: 40px 0;
+    /* Top and bottom margin for spacing */
 }
 
 .notable-figures h3 {
     color: #034694;
+    /* Chelsea Blue for sub-heading */
     margin-bottom: 20px;
+    /* Bottom margin for sub-heading */
 }
 
 .figure-profiles {
     display: flex;
+    /* Flexbox for layout */
     flex-wrap: wrap;
+    /* Wrap items to next line on smaller screens */
     justify-content: center;
+    /* Center align items */
     gap: 20px;
+    /* Space between items */
 }
 
 .figure-card {
     width: 250px;
+    /* Width of each card */
     padding: 15px;
+    /* Padding inside each card */
     background-color: #f5f5f5;
+    /* Off-White background for cards */
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    /* Box shadow for depth */
     border-radius: 4px;
+    /* Rounded corners */
     text-align: left;
+    /* Left align text */
     margin-bottom: 20px;
+    /* Bottom margin for spacing */
 }
 
 .figure-card img {
     width: 100%;
+    /* Full width of the card */
     height: 200px;
+    /* Fixed height for images */
     border-radius: 5px;
+    /* Rounded corners for images */
 }
 
 .figure-card h4 {
     color: #034694;
+    /* Chelsea Blue for figure names */
     margin-top: 10px;
+    /* Top margin for spacing */
 }
 
 .figure-card p {
     color: #383838;
+    /* Dark Grey for text */
     margin-top: 10px;
+    /* Top margin for paragraph */
 }
 
-/* Memorable Match */
+/* Memorable Match - Styles for the memorable match cards */
 .historic-matches {
     text-align: center;
+    /* Center aligning text */
     margin: 40px 0;
+    /* Top and bottom margin for spacing */
 }
 
 .historic-matches h3 {
     color: #034694;
+    /* Chelsea Blue for sub-heading */
     margin-bottom: 20px;
+    /* Bottom margin for sub-heading */
 }
 
 .match-cards {
     display: flex;
+    /* Flexbox for layout */
     flex-wrap: wrap;
+    /* Wrap items to next line on smaller screens */
     justify-content: center;
+    /* Center align items */
     gap: 20px;
+    /* Space between items */
 }
 
 .match-card {
     width: 300px;
+    /* Width of each card */
     background-color: #f5f5f5;
+    /* Off-White background for cards */
     border-radius: 4px;
+    /* Rounded corners */
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    /* Box shadow for depth */
     overflow: hidden;
+    /* Hide overflow content */
 }
 
 .match-card img {
     width: 100%;
+    /* Full width of the card */
     height: auto;
+    /* Auto height to maintain aspect ratio */
 }
 
 .match-info {
     padding: 15px;
+    /* Padding inside each card for content */
 }
 
 .match-info h4 {
     color: #034694;
+    /* Chelsea Blue for match titles */
     margin-bottom: 10px;
+    /* Bottom margin for spacing */
 }
 
 .match-info p {
     color: #383838;
+    /* Dark Grey for text */
 }
 
-/* Fan Zone */
+/* Fan Zone - Styles for the fan zone section */
 #fan-zone {
     background-color: #F5F5F5;
+    /* Off-White background for the section */
     color: #383838;
+    /* Dark Grey text color */
     padding: 20px;
+    /* Padding around the content */
     text-align: center;
+    /* Center aligning the content */
 }
 
 #fan-zone h2 {
     color: #034694;
+    /* Chelsea Blue for section titles */
     margin-bottom: 30px;
+    /* Bottom margin for spacing */
 }
 
 #fan-zone .fan-zone-content {
     display: flex;
+    /* Flexbox for layout */
     flex-direction: column;
+    /* Stack elements vertically */
     align-items: center;
+    /* Center align items */
     margin-bottom: 20px;
+    /* Bottom margin for spacing */
 }
 
 #fan-zone .fan-podcast,
 #fan-zone .fan-poll {
     margin: 20px;
+    /* Margin around each component */
     padding: 15px;
+    /* Padding inside each component */
     border-radius: 5px;
+    /* Rounded corners */
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    /* Box shadow for depth */
 }
 
-.fan-podcast audio {    
+.fan-podcast audio {
     background-color: #b3962f;
+    /* Background color for audio element */
 }
 
 .fan-podcast source {
-    width: 100%; 
-    line-height: 1rem;   
-
+    width: 100%;
+    /* Full width */
+    line-height: 1rem;
+    /* Line height for readability */
 }
 
 .fan-zone-content h3 {
     color: #034694;
+    /* Chelsea Blue for subheadings */
     margin-bottom: 10px;
+    /* Bottom margin for spacing */
 }
 
 .fan-zone-content p {
     color: #383838;
+    /* Dark Grey text color */
     margin-bottom: 10px;
+    /* Bottom margin for spacing */
 }
 
 .forum-link {
     display: inline-block;
+    /* Changed from block to inline-block */
     background-color: #034694;
+    /* Chelsea Blue for the button background */
     color: #F5F5F5;
+    /* Off-White text color */
     padding: 10px 20px;
+    /* Padding around the text */
     border-radius: 4px;
+    /* Rounded corners */
     text-decoration: none;
+    /* No underline for the link */
     transition: background-color 0.3s ease;
+    /* Smooth color transition on hover */
+    border: none;
+    /* Remove any default border */
+    cursor: pointer;
+    /* Change cursor to pointer on hover */
+    margin-top: 10px;
+    /* Add a little space above the button */
+}
+
+.fan-forum>h3 {
+    margin-bottom: 10px;
+    /* Add a little space above the button */
+}
+
+.fan-forum>p {
+    margin-bottom: 10px;
+    /* Add a little space above the button */
 }
 
 .forum-link:hover {
     background-color: #02325f;
+    /* Darker blue on hover */
 }
 
-iframe {
-    width: 100%;
+.forum-iframe {
+    width: 80%;
+    /* Full width of the container */
     max-width: 1200px;
-    height: 400px;
+    /* Maximum width */
+    height: 300px;
+    /* Height of the iframe */
     border: none;
+    /* No border for the iframe */
 }
 
 .fan-poll {
     margin: 20px 0;
+    /* Top and bottom margin */
     padding: 15px;
+    /* Padding inside the poll container */
     background-color: #F5F5F5;
+    /* Off-White background */
     border-radius: 4px;
+    /* Rounded corners */
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    /* Box shadow for depth */
 }
 
 #submit-form {
     margin-bottom: 15px;
+    /* Bottom margin for the form */
 }
 
 #submit-form div {
     margin-bottom: 10px;
+    /* Bottom margin for each form element */
 }
 
 .fan-poll .poll-options {
     text-align: center;
+    /* Center aligning the options */
     margin-bottom: 10px;
+    /* Bottom margin for spacing */
 }
 
 .fan-poll p {
     margin-bottom: 10px;
+    /* Bottom margin for paragraph */
 }
 
 .fan-poll .poll-options label {
     display: inline-block;
+    /* Inline block for better layout */
     margin-right: 10px;
+    /* Right margin for spacing */
     vertical-align: middle;
+    /* Align middle for better visual alignment */
     margin-bottom: 10px;
+    /* Bottom margin for spacing */
 }
-
 
 .poll-submit-btn {
     background-color: #034694;
+    /* Chelsea Blue for button */
     color: #F5F5F5;
+    /* Off-White text color */
     border: none;
+    /* No border */
     padding: 10px 20px;
+    /* Padding for the button */
     border-radius: 4px;
+    /* Rounded corners */
     cursor: pointer;
+    /* Cursor changes to pointer */
     transition: background-color 0.3s ease;
+    /* Transition for hover effect */
 }
 
 .poll-submit-btn:hover {
     background-color: #02325f;
+    /* Darker blue on hover */
 }
 
-/* Fan Trivia */
+/* Fan Trivia - Styles for the trivia section in Fan Zone */
 .fan-trivia {
     margin: 20px 0;
+    /* Margin top and bottom */
     padding: 15px;
+    /* Padding inside trivia container */
     background-color: #F5F5F5;
+    /* Off-White background */
     border-radius: 4px;
+    /* Rounded corners */
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    /* Box shadow for depth */
 }
 
 .fan-trivia h3 {
     color: #034694;
+    /* Chelsea Blue for titles */
     margin-bottom: 15px;
+    /* Bottom margin for spacing */
 }
 
 .fan-trivia p {
     color: #383838;
+    /* Dark Grey text color */
     margin-bottom: 15px;
+    /* Bottom margin for spacing */
 }
 
 .trivia-question {
     margin-bottom: 15px;
+    /* Bottom margin for each question */
 }
 
 .trivia-question p {
     margin-bottom: 15px;
+    /* Bottom margin for each question paragraph */
 }
 
 .trivia-submit-btn {
     background-color: #034694;
+    /* Chelsea Blue for submit button */
     color: #F5F5F5;
+    /* Off-White text color */
     border: none;
+    /* No border */
     padding: 10px 20px;
+    /* Padding for the button */
     border-radius: 4px;
+    /* Rounded corners */
     cursor: pointer;
+    /* Cursor changes to pointer on hover */
     transition: background-color 0.3s ease;
+    /* Transition for hover effect */
 }
 
 .trivia-submit-btn:hover {
     background-color: #02325f;
+    /* Darker blue on hover */
 }
 
+/* Contact Us Section - Styles for the Contact Us form */
 #contact {
     background-color: #F5F5F5;
+    /* Off-White background */
     color: #383838;
+    /* Dark Grey text color */
     padding: 20px;
+    /* Padding around the form */
     text-align: center;
+    /* Center aligning the content */
 }
 
 #contact h2 {
     color: #034694;
+    /* Chelsea Blue for the title */
     margin-bottom: 20px;
+    /* Bottom margin for spacing */
     align-items: center;
+    /* Center align items */
 }
 
 #contact .form-group {
     margin-bottom: 15px;
+    /* Bottom margin for each form group */
 }
 
 #contact label {
     display: block;
+    /* Block display for labels */
     margin-bottom: 5px;
+    /* Bottom margin for labels */
 }
 
 #contact input[type="text"],
 #contact input[type="email"],
 #contact textarea {
     width: 100%;
+    /* Full width */
     padding: 10px;
+    /* Padding inside input fields */
     border-radius: 4px;
+    /* Rounded corners */
     border: 1px solid #C0C0C0;
+    /* Border color */
 }
 
 #contact textarea {
     height: 100px;
+    /* Height of textarea */
     resize: vertical;
+    /* Allow vertical resizing */
 }
 
 #contact .submit-btn {
     background-color: #034694;
+    /* Chelsea Blue for submit button */
     color: #FFFFFF;
-    /* White */
+    /* White text color */
     border: none;
+    /* No border */
     padding: 10px 20px;
+    /* Padding for the button */
     border-radius: 4px;
+    /* Rounded corners */
     cursor: pointer;
+    /* Cursor changes to pointer on hover */
     transition: background-color 0.3s ease;
+    /* Transition for hover effect */
 }
 
 #contact .submit-btn:hover {
     background-color: #02325f;
+    /* Darker blue on hover */
 }
 
-/* Footer Styles */
+/* Footer Styles - Styling for the page footer */
 footer {
     background-color: #034694;
+    /* Chelsea Blue for footer background */
     color: #F5F5F5;
+    /* Off-White text color */
     padding: 20px;
+    /* Padding around the footer */
     text-align: center;
+    /* Center aligning the content */
 }
-
 
 #social-networks {
     text-align: center;
+    /* Center aligning social network icons */
     padding: 20px 0;
+    /* Padding top and bottom */
     display: flex;
+    /* Flexbox for layout */
     justify-content: space-evenly;
+    /* Even spacing between icons */
     list-style-type: none;
+    /* No list style */
     margin-bottom: 10px;
+    /* Bottom margin for spacing */
 }
 
 #social-networks i {
     font-size: 160%;
+    /* Larger font size for icons */
     padding: 5%;
+    /* Padding around icons */
     color: #F5F5F5;
+    /* Off-White color for icons */
 }
 
 #social-networks i:hover {
     color: #D4AF37;
+    /* Metallic Gold on hover */
 }
 
 footer>p {
     font-size: 14px;
+    /* Font size for footer text */
 }
-
-
 
 /* Media Queries */
 
