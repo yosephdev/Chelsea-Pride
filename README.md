@@ -68,6 +68,10 @@ This site facilitates easy interaction with the club and fellow fans through soc
   - [Languages](#languages)
   - [Libraries \& Frameworks](#libraries--frameworks)
   - [Tools](#tools)
+- [Testing](#testing)
+  - [Encountered Issues](#encountered-issues)
+- [Deployment](#deployment)
+- [Credits](#credits)
 
 # UX
 
@@ -484,5 +488,61 @@ The website's footer section serves as a concluding element on each page, provid
 - [W3C CSS Validation Service](https://jigsaw.w3.org/css-validator/ "W3C CSS") - Validating CSS styles.
 - [Box Shadow Generator](https://html-css-js.com/css/generator/box-shadow/ "html-css-js.com") - CSS box shadows.
 - [Unsplash](https://unsplash.com/ "Unsplash") - High-quality, royalty-free images.
+
+[Back to Top](#table-of-contents)
+
+# Testing
+
+The Chelsea Pride website has been thoroughly tested to ensure it meets the desired goals and provides an optimal user experience. The website has been designed to be responsive, adapting seamlessly to different screen sizes. This adaptability ensures that the images and content are displayed clearly and sharply on all devices, avoiding any large, empty spaces. The site's navigation is user-friendly, allowing visitors to easily explore the site and make contact through the provided form or social media links. The content has been kept simple and concise to avoid overwhelming users.
+
+## Encountered Issues
+
+During the testing phase, several issues were identified and addressed:
+
+- **Responsive Design Adjustments**: Initially, the site was designed with a minimum width of 992px for the largest screen styling. However, it became clear that this approach was not visually effective for larger screens. An extra-large screen size breakpoint was added to improve the site's appearance and usability on larger screens.
+
+- **Wireframe Design Modifications**: The original wireframe designs underwent changes during the development process. These modifications were made to enhance user experience, improve visual appeal, and ensure better content organization. The final design is a result of iterative adjustments, balancing aesthetics and functionality.
+
+- **Forum Link Positioning**: In the desktop version, the positioning of the 'Forum Link' under the iframe was not initially aligned as intended. Adjustments were made to the CSS to ensure the link is positioned correctly under the iframe, leading to a cleaner and more intuitive layout.
+
+- **HTML Validation Issues**: HTML validation revealed several issues, including obsolete attributes and misplaced text within the iframe element. These issues were corrected by removing outdated attributes and ensuring proper placement of text and elements within the HTML structure.
+
+- **CSS Frameborder Obsolescence**: The 'frameborder' attribute on iframe elements was found to be obsolete. This was resolved by using CSS for border styling instead, adhering to modern web standards.
+
+- **Unresponsive 'a' Link**: The 'a' link within the 'fan-forum' section was initially unresponsive and affected the layout. This was corrected by adjusting the CSS properties and ensuring proper HTML structure, resulting in a fully functional and well-positioned link.
+
+These issues were systematically resolved to enhance the overall functionality, usability, and aesthetic appeal of the Chelsea Pride website.
+
+[Back to Top](#table-of-contents)
+
+# Deployment
+
+The Chelsea Pride website was deployed using GitHub Pages with the following steps:
+
+- Navigate to the repository on GitHub and click 'Settings'.
+- Select 'Pages' from the side navigation menu.
+- Choose the 'main' branch under the 'Source' dropdown menu.
+- Click the 'Save' button.
+- The website is now live and accessible at [Chelsea Pride GitHub Page URL].
+- Future changes can be made by committing and pushing updates to GitHub, which will automatically reflect on the live site.
+
+[Back to Top](#table-of-contents)
+
+# Credits
+
+Credits for the Chelsea Pride website are extended to:
+
+- **Code Inspiration, Help, and Advice:**
+  - [Simen Daehlin](https://github.com/Eventyret "Simen Daehlin") for project idea, review and guidance.
+  - [CSS-Tricks](https://css-tricks.com/ "CSS-Tricks") for various CSS snippets.
+  - [Code Institute](https://www.codeinstitute.net/ "Code Institute") for HTML and CSS guidance.
+
+- **Design and Content Inspiration:**
+  - [Chelsea Football Club Official Website](https://www.chelseafc.com/ "Chelsea FC Official Website") for club information.
+  - [The Pride of London Website](https://theprideoflondon.com/ "The Pride of London Website") for layout ideas.
+
+- **Images and Media:**
+  - [Unsplash](https://unsplash.com/ "Unsplash") for high-quality, royalty-free images.
+  - [FontAwesome](https://fontawesome.com/ "Font Awesome") for icons used throughout the site.
 
 [Back to Top](#table-of-contents)
