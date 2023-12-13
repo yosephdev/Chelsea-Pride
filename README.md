@@ -1,105 +1,54 @@
 # Chelsea Pride Website
 
-# Goal for this Project
-
 Welcome to Chelsea Pride, a vibrant hub for Chelsea Football Club enthusiasts. This website is a dedicated space for fans of all ages, offering the latest in club news, player insights, and historical retrospectives.
 
 This site facilitates easy interaction with the club and fellow fans through social media and a direct contact form, making it simple and accessible for everyone to stay connected with the Chelsea community.
 
-# Table of Contents
+## Table of Contents
 
 - [Chelsea Pride Website](#chelsea-pride-website)
-- [Goal for this Project](#goal-for-this-project)
-- [Table of Contents](#table-of-contents)
 - [UX](#ux)
-- [User Goals](#user-goals)
-- [User Stories](#user-stories)
-- [Site Owner's Goals](#site-owners-goals)
-- [Requirements](#requirements)
-- [Expectations](#expectations)
+  - [User Goals](#user-goals)
+  - [User Stories](#user-stories)
+  - [Site Owner's Goals](#site-owners-goals)
+  - [Requirements](#requirements)
+  - [Expectations](#expectations)
 - [Design Choices](#design-choices)
-  - [Fonts](#fonts)
-  - [Icons](#icons)
-  - [Colors](#colors)
 - [Structure](#structure)
-  - [Mobile-First Design](#mobile-first-design)
-  - [Responsive Breakpoints](#responsive-breakpoints)
 - [Wireframes](#wireframes)
-    - [Desktop Wireframe](#desktop-wireframe)
-    - [Tablet Wireframe](#tablet-wireframe)
-    - [Phone Wireframe](#phone-wireframe)
 - [Features](#features)
-- [Planned Features for Chelsea Pride](#planned-features-for-chelsea-pride)
-  - [Proposed Features](#proposed-features)
-  - [Existing Features](#existing-features)
-    - [Navigation Bar](#navigation-bar)
-      - [Desktop (\>=992px)](#desktop-992px)
-      - [Small devices (\<992px)](#small-devices-992px)
-      - [Enhancements and Responsive Behavior](#enhancements-and-responsive-behavior)
-  - [Main Banner with Site Title](#main-banner-with-site-title)
-    - [Overview](#overview)
-    - [Design and Features](#design-and-features)
-    - [HTML and CSS Implementation](#html-and-css-implementation)
-  - [Featured Content Section](#featured-content-section)
-    - [Overview](#overview-1)
-    - [Design and Implementation](#design-and-implementation)
-      - [HTML and CSS Construction](#html-and-css-construction)
-  - [Latest News Section](#latest-news-section)
-    - [Overview](#overview-2)
-    - [Design and Implementation](#design-and-implementation-1)
-      - [HTML and CSS Construction](#html-and-css-construction-1)
-    - [Club Timeline](#club-timeline)
-      - [Design and Features](#design-and-features-1)
-    - [Legendary Figures](#legendary-figures)
-      - [Design and Features](#design-and-features-2)
-    - [Memorable Matches](#memorable-matches)
-      - [Design and Features](#design-and-features-3)
-    - [Fan Zone](#fan-zone)
-      - [Design and Features](#design-and-features-4)
-      - [Interactive and Responsive Design](#interactive-and-responsive-design)
-    - [Contact Us](#contact-us)
-      - [Design and Features](#design-and-features-5)
-      - [User Interaction and Usability](#user-interaction-and-usability)
-    - [Footer](#footer)
-      - [Design and Features](#design-and-features-6)
-      - [User Experience and Legal Compliance](#user-experience-and-legal-compliance)
-  - [Features to be Implemented](#features-to-be-implemented)
-  - [Technologies Used](#technologies-used)
-  - [Languages](#languages)
-  - [Libraries \& Frameworks](#libraries--frameworks)
-  - [Tools](#tools)
+- [Technologies Used](#technologies-used)
 - [Testing](#testing)
-  - [Encountered Issues](#encountered-issues)
 - [Deployment](#deployment)
 - [Credits](#credits)
 
-# UX
+## UX
 
-# User Goals
+### User Goals
 
 - Access the latest Chelsea FC news, match results, and player updates.
 - Engage with other Chelsea supporters and participate in fan discussions.
 - Learn about Chelsea FC's history and legendary players.
 
-# User Stories
+### User Stories
 
-- I want up-to-date match results and analyses to follow the team's performance.  
-- I need to learn about the club's history to feel more connected.  
+- I want up-to-date match results and analyses to follow the team's performance.
+- I need to learn about the club's history to feel more connected.
 - I wish to engage in discussions and polls with fellow fans.
 
-# Site Owner's Goals
+### Site Owner's Goals
 
-- Provide all-inclusive information on Chelsea FC, from news to history.  
+- Provide all-inclusive information on Chelsea FC, from news to history.
 - Create a space for fans to connect and share their passion.
 - Maintain an intuitive, accessible website for all fans.
 
-# Requirements
+### Requirements
 
 - Regularly update the site with the latest Chelsea FC news and match info.
 - Include interactive elements like forums and polls.
 - Feature a section dedicated to the club's rich history.
 
-# Expectations
+### Expectations
 
 - Users expect an interactive experience with fresh, engaging content.
 - The site should be a trusted source for accurate Chelsea FC information.
@@ -523,7 +472,7 @@ The Chelsea Pride website was deployed using GitHub Pages with the following ste
 - Select 'Pages' from the side navigation menu.
 - Choose the 'main' branch under the 'Source' dropdown menu.
 - Click the 'Save' button.
-- The website is now live and accessible at [Chelsea Pride GitHub Page URL](https://yosephdev.github.io/Chelsea-Pride).
+- The website is now live and accessible at [Chelsea Pride Website](https://yosephdev.github.io/Chelsea-Pride).
 - Future changes can be made by committing and pushing updates to GitHub, which will automatically reflect on the live site.
 
 [Back to Top](#table-of-contents)
