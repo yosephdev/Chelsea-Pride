@@ -487,7 +487,7 @@ The website's footer section serves as a concluding element on each page, provid
 - [W3C HTML Validation Service](https://validator.w3.org/ "W3C HTML") - Validating HTML content.
 - [W3C CSS Validation Service](https://jigsaw.w3.org/css-validator/ "W3C CSS") - Validating CSS styles.
 - [Box Shadow Generator](https://html-css-js.com/css/generator/box-shadow/ "html-css-js.com") - CSS box shadows.
-- [Unsplash](https://unsplash.com/ "Unsplash") - High-quality, royalty-free images.
+- [Colors.io](https://colors.io/ "Colors.io") - High-quality, royalty-free images.
 
 [Back to Top](#table-of-contents)
 
@@ -523,7 +523,7 @@ The Chelsea Pride website was deployed using GitHub Pages with the following ste
 - Select 'Pages' from the side navigation menu.
 - Choose the 'main' branch under the 'Source' dropdown menu.
 - Click the 'Save' button.
-- The website is now live and accessible at [Chelsea Pride GitHub Page URL].
+- The website is now live and accessible at [Chelsea Pride GitHub Page URL](https://yosephdev.github.io/Chelsea-Pride).
 - Future changes can be made by committing and pushing updates to GitHub, which will automatically reflect on the live site.
 
 [Back to Top](#table-of-contents)
