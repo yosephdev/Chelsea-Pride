@@ -436,7 +436,7 @@ The website's footer section serves as a concluding element on each page, provid
 - [W3C HTML Validation Service](https://validator.w3.org/ "W3C HTML") - Validating HTML content.
 - [W3C CSS Validation Service](https://jigsaw.w3.org/css-validator/ "W3C CSS") - Validating CSS styles.
 - [Box Shadow Generator](https://html-css-js.com/css/generator/box-shadow/ "html-css-js.com") - CSS box shadows.
-- [Colors.io](https://colors.io/ "Colors.io") - High-quality, royalty-free images.
+- [Colors.co](https://colors.co/ "Colors") - Generating harmonious color schemes.
 
 [Back to Top](#table-of-contents)
 
