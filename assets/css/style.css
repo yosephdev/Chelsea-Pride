@@ -471,12 +471,16 @@ main a:hover,
     /* Darker gold on hover */
 }
 
-.news-image,
-.video-image {
+.news-image {
     width: 100%;
     /* Full width for responsiveness */
     height: auto;
     /* Auto height to maintain aspect ratio */
+}
+
+.video-iframe {
+    width: 280px;
+    height: 200px;
 }
 
 /* Team History Section - Styles for the Team History section */
@@ -1213,9 +1217,11 @@ footer>p {
         flex-basis: 45%;
     }
 
-    .video-image {
-        height: 200px;
+    .video-iframe {
+        width: 320px;
+        height: 225px;
     }
+
 
     #fan-zone .fan-zone-content {
         flex-direction: row;
@@ -1305,6 +1311,12 @@ footer>p {
         border-radius: 5px;
     }
 
+    .video-iframe {
+        width: 380px;
+        height: 265px;
+    }
+
+
     .match-card {
         width: 230px;
         overflow: hidden;
@@ -1364,10 +1376,6 @@ footer>p {
         flex-basis: 35%;
     }
 
-    .video-image {
-        height: 300px;
-    }
-
     .timeline {
         max-width: 200px;
         margin: 0 auto;
@@ -1422,6 +1430,11 @@ footer>p {
         width: 100%;
         background-color: #D4AF37;
         z-index: 0;
+    }
+
+    .video-iframe {
+        width: 560px;
+        height: 315px;
     }
 
     .match-card img {
