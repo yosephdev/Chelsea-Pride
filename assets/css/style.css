@@ -795,16 +795,70 @@ main a:hover,
     /* Center aligns the content */
 }
 
-.forum-iframe {
-    width: 100%;
-    /* Makes the iframe responsive */
-    max-width: 800px;
-    /* Sets maximum width for larger screens */
-    height: 300px;
-    /* Sets the height of the iframe */
-    margin-bottom: 10px;
-    /* Adds space between the iframe and the link */
+/* Styles for the Thank You container */
+.thank-you-container {
+    text-align: center;
+    /* Centering content */
+    padding: 50px;
+    /* Adding padding for spacing */
+    background-color: #F5F5F5;
+    /* Light background for contrast */
+    border-radius: 8px;
+    /* Rounded corners for aesthetic appeal */
+    max-width: 600px;
+    /* Maximum width for the container */
+    margin: 0 auto;
+    /* Centering the container on the page */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    /* Adding a subtle shadow for depth */
 }
+
+/* Styles for the heading */
+.thank-you-container h1 {
+    color: #034694;
+    /* Chelsea Blue for brand consistency */
+    margin-bottom: 20px;
+    /* Spacing below the heading */
+    font-size: 2.5em;
+    /* Larger font size for emphasis */
+}
+
+/* Styles for the paragraph */
+.thank-you-container p {
+    color: #383838;
+    /* Dark Grey for readability */
+    margin-bottom: 30px;
+    /* Spacing below the paragraph */
+}
+
+/* Styles for the back button */
+.back-button {
+    display: inline-block;
+    /* Inline block for proper spacing */
+    background-color: #034694;
+    /* Chelsea Blue for button */
+    color: #FFFFFF;
+    /* White text for contrast */
+    padding: 10px 20px;
+    /* Padding inside the button */
+    border-radius: 4px;
+    /* Rounded corners for the button */
+    text-decoration: none;
+    /* Removing underline from link */
+    font-weight: bold;
+    /* Bold text for emphasis */
+    transition: background-color 0.3s;
+    /* Transition for hover effect */
+}
+
+/* Hover effect for back button */
+.back-button:hover {
+    background-color: #02325f;
+    /* Darker blue on hover */
+    color: #F5F5F5;
+    /* Adjusting text color for visibility */
+}
+
 
 .forum-link {
     display: block;
@@ -1170,10 +1224,6 @@ footer>p {
 
     .video-image {
         height: 200px;
-    }
-
-    iframe {
-        height: 300px;
     }
 
     #fan-zone .fan-zone-content {
