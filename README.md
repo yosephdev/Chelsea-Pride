@@ -32,9 +32,9 @@ This site facilitates easy interaction with the club and fellow fans through soc
 
 ### User Stories
 
-- I want up-to-date match results and analyses to follow the team's performance.
-- I need to learn about the club's history to feel more connected.
-- I wish to engage in discussions and polls with fellow fans.
+- **As a user, I expect to find up-to-date match results and analyses** to stay informed about the team's performance and progress.
+- **As a user, I need access to detailed information about the club's history** to feel a deeper connection with Chelsea FC and its legacy.
+- **As a fan, I wish to engage in discussions and participate in polls** to connect with fellow supporters and share my passion for the team.
 
 ### Site Owner's Goals
 
