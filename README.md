@@ -119,11 +119,11 @@ Given the goal to provide concise yet impactful information to the user, the web
 
 Below are the wireframes for "Chelsea Pride" across different devices:
 
-### [Desktop Wireframe](wireframes/wireframe-Desktop.png "Desktop wireframe")
+### [Desktop Wireframe](docs/wireframe-Desktop.png "Desktop wireframe")
 
-### [Tablet Wireframe](wireframes/wireframe-Tablet.png "Tablet wireframe")
+### [Tablet Wireframe](docs/wireframe-Tablet.png "Tablet wireframe")
 
-### [Phone Wireframe](wireframes/wireframe-Mobile.png "Phone wireframe")
+### [Phone Wireframe](docs/wireframe-Mobile.png "Phone wireframe")
 
 [Back to Top](#table-of-contents)
 
