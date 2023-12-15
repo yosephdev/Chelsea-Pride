@@ -247,7 +247,7 @@ main {
 /* Style for the main banner and sections */
 /* Common styling for main banner and news section */
 .main-banner,
-#latest-news {
+.latest-news {
     text-align: left;
     /* Align text to the left */
     margin-bottom: 20px;
@@ -398,7 +398,7 @@ main a:hover,
 
 /* Latest News Section */
 /* Styles for the Latest News section of the website */
-#latest-news {
+.latest-news {
     background-color: #F5F5F5;
     /* Off-White background */
     color: #383838;
@@ -409,7 +409,7 @@ main a:hover,
     /* Center align text */
 }
 
-#latest-news h2 {
+.latest-news h2 {
     color: #034694;
     /* Chelsea Blue for heading */
     margin-bottom: 30px;
