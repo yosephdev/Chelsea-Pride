@@ -1098,7 +1098,7 @@ footer>p {
 
 /* Media Queries */
 
-/* Media Queries for Medium and Large devices (768px and up) */
+/* Media Queries for Tablets (768px and up) */
 @media screen and (min-width: 768px) {
     nav {
         display: flex;
@@ -1247,7 +1247,7 @@ footer>p {
     }
 }
 
-/* Large devices (laptops, 992px and up) */
+/* Media Queries for Desktops (992px and up) */
 @media screen and (min-width: 992px) {
 
     .social-icons {
@@ -1283,7 +1283,7 @@ footer>p {
     }
 }
 
-/* Extra large devices (large desktops, 1200px and up) */
+/* Media Queries for Large Desktops (1200px and up) */
 @media screen and (min-width: 1200px) {
     .container {
         max-width: 1140px;
