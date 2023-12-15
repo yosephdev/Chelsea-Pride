@@ -74,7 +74,7 @@ The website will incorporate icons from the [Font Awesome library](https://fonta
 
 The color palette for Chelsea Pride has been carefully selected to align with Chelsea FC's branding and to ensure optimal contrast and visual appeal. The colors were chosen using [Colors.co](https://colors.co/ "Colors"), a tool that helps generate harmonious color schemes.
 
-![Colour Palette](wireframes/color-palette.png)
+![Colour Palette](docs/color-palette.png)
 
 - **#034694 (Chelsea Blue)**: This vibrant shade of blue is synonymous with Chelsea FC and is used for headers and other key interface elements, providing a strong visual identity that fans can immediately connect with.
 
@@ -165,24 +165,24 @@ The navigation bar has been thoughtfully designed to be fully responsive, accomm
 
 #### Desktop (>=992px)
 
-![Navigation Bar](wireframes/nav-bar-desktop.png)
+![Navigation Bar](docs/nav-bar-desktop.png)
 
 - The navigation bar spans the full width of the screen on desktop devices, making all links (News & Updates, Team & History, Fan Zone, Contact Us) clearly visible and accessible. This arrangement ensures straightforward and intuitive navigation for end users.
 - Hover effects have been incorporated to visually indicate which link the user is hovering over, highlighted by a change in text color and an underline effect.
   
-![Navigation Bar on Hover](wireframes/nav-bar-hover.png)
+![Navigation Bar on Hover](docs/nav-bar-hover.png)
   
 - A distinct visual change in text color upon clicking provides feedback to the user, confirming their selection.
 
-![Navigation Bar on Focus](wireframes/nav-bar-focus.png)
+![Navigation Bar on Focus](docs/nav-bar-focus.png)
 
 #### Small devices (<992px)
 
-![Navigation Bar on Small Devices](wireframes/nav-bar-small.png)
+![Navigation Bar on Small Devices](docs/nav-bar-small.png)
 
 - On smaller screens, the navigation bar adapts to a hamburger menu style to ensure usability is maintained. This compact form factor preserves screen real estate while still providing easy access to all navigation links.
   
-![Navigation Bar Expanded on Small Devices](wireframes/nav-bar-small-expanded.png)
+![Navigation Bar Expanded on Small Devices](docs/nav-bar-small-expanded.png)
   
 - Tapping the hamburger icon reveals the full menu, presenting the same essential navigation links as on larger screens but in a vertical layout, optimized for touch interaction.
 
@@ -227,7 +227,7 @@ The Main Banner is a prominent feature at the top of the Chelsea Pride website, 
 </div>
 ```
 
-![Landing Page](wireframes/landing-page.png)
+![Landing Page](docs/landing-page.png)
 
 [Back to Top](#table-of-contents)
 
@@ -256,7 +256,7 @@ This section serves as a focal point for displaying the latest club news, match 
 
 - **Interactive Elements**: Interactive elements like hover effects were incorporated to enhance user engagement and make navigation within the section intuitive and visually engaging.
 
-![Landing Page](wireframes/feature-page.png)
+![Landing Page](docs/feature-page.png)
 
 [Back to Top](#table-of-contents)
 
@@ -287,7 +287,7 @@ The "Latest News" section is designed to be the hub for all the current and sign
 
 - **Interactive Elements**: Hover effects on buttons and links add an interactive layer, making navigation within the section intuitive and visually pleasing.
 
-![Latest News Section](wireframes/latest-news-section.png)
+![Latest News Section](docs/latest-news-section.png)
 
 [Back to Top](#table-of-contents)
 
@@ -297,7 +297,7 @@ The "Club Timeline" is a central feature of the "Team & History" section, offeri
 
 #### Design and Features
 
-![Club Timeline Section](wireframes/club-timeline-section.png)
+![Club Timeline Section](docs/club-timeline-section.png)
 
 - The timeline is designed to be visually engaging and easy to navigate. It features a series of events, each marked by a year and accompanied by a brief description of the milestone.
 - On larger screens, the timeline adopts a horizontal layout with events alternating on either side of a central line, showcasing a balanced and aesthetically pleasing design. On smaller screens, it switches to a vertical format for better readability.
@@ -313,7 +313,7 @@ This section is dedicated to the iconic legends of Chelsea Football Club, showca
 
 #### Design and Features
 
-![Legendary Figures Section](wireframes/legendary-figures-section.png)
+![Legendary Figures Section](docs/legendary-figures-section.png)
 
 - The section is presented in a visually appealing card layout, ideal for highlighting individual legends in a neat and organized manner.
 - On larger screens, the cards are displayed in a multi-column grid, offering an engaging browsing experience. On smaller screens, the layout adjusts to ensure readability and accessibility.
@@ -329,7 +329,7 @@ Within the "Team & History" section, the "Memorable Matches" feature highlights 
 
 #### Design and Features
 
-![Memorable Matches Section](wireframes/memorable-matches.png)
+![Memorable Matches Section](docs/memorable-matches.png)
 
 - The matches are presented in an attractive card layout, ideal for encapsulating the essence of each historic game in a concise and visually engaging manner.
 - On larger screens, these cards are arranged in a multi-column grid, enhancing the browsing experience and allowing users to easily navigate through the club's storied past. On smaller screens, the layout adapts for optimal readability and accessibility.
@@ -345,7 +345,7 @@ The "Fan Zone" section is a dynamic and interactive area of the website, dedicat
 
 #### Design and Features
 
-![Fan Zone Section](wireframes/fan-zone.png)
+![Fan Zone Section](docs/fan-zone.png)
 
 - **Weekly Fan Poll**: In this feature, fans can express their opinions by voting in weekly polls, such as selecting their player of the match. These polls use radio buttons to ensure a user-friendly and straightforward voting experience.
   
@@ -370,7 +370,7 @@ The "Contact Us" section provides a direct and accessible communication channel 
 
 #### Design and Features
 
-![Contact Us Section](wireframes/contact-us.png)
+![Contact Us Section](docs/contact-us.png)
 
 - **Accessible Contact Form**: The section includes a user-friendly contact form with fields for name, email, and message. This straightforward approach ensures that reaching out is hassle-free and inclusive for all users.
   
@@ -392,7 +392,7 @@ The website's footer section serves as a concluding element on each page, provid
 
 #### Design and Features
 
-![Footer Section](wireframes/footer.png)
+![Footer Section](docs/footer.png)
 
 - **Social Media Connectivity**: The footer includes neatly arranged icons linking to Chelsea FC's official social media pages on Facebook, Instagram, and Twitter. These icons allow fans to stay connected with the club's latest updates and engage with its online community.
 
