@@ -328,75 +328,66 @@ main a,
     padding: 10px 20px;
     /* Padding for buttons */
     text-transform: uppercase;
-    /* Uppercase text for buttons */
     border-radius: 4px;
-    /* Rounded corners for buttons */
     transition: background-color 0.3s ease;
-    /* Smooth transition for hover effect */
 }
 
 main a:hover,
 .button:hover,
 .btn:hover {
     background-color: #b3962f;
-    /* Darker gold on hover */
 }
 
 /* Featured Section - Styles for the featured content area */
 .featured-content {
     background: url(../images/stamford-bridge.jpg) no-repeat center/cover;
-    /* Background image with cover fit */
     display: flex;
-    /* Flexbox for layout */
     flex-wrap: wrap;
-    /* Allows items to wrap in a new line */
     margin-top: 30px;
-    /* Top margin for spacing */
     padding: 0;
-    /* No padding */
     margin-bottom: 20px;
-    /* Bottom margin for spacing */
 }
 
 .featured-content div {
     color: #F5F5F5;
-    /* Off-White text color for contrast */
     background-color: rgba(0, 0, 0, 0.6);
-    /* Semi-transparent black background */
     padding: 15px;
-    /* Padding for content inside each div */
     text-align: center;
-    /* Center align the text */
     flex-basis: 200px;
-    /* Base width for each flex item */
     flex-grow: 1;
-    /* Allow flex items to grow if needed */
     border: 2px solid #C0C0C0;
-    /* Slate Grey border for each item */
+
 }
 
 /* Hover Effects for featured content divs */
 .featured-content div:hover {
     background-color: rgba(0, 0, 0, 0.7);
-    /* Darken the background on hover */
 }
 
 .featured-content h3 {
     color: #D4AF37;
-    /* Metallic Gold for sub-headings */
+    margin-bottom: 10px;
 }
 
-.featured-content p {
+/* Styling for list within featured content */
+.featured-content ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+}
+
+.featured-content li {
     color: #C0C0C0;
-    /* Slate Grey for text */
+    margin-bottom: 10px;
 }
 
 .featured-content i {
     color: #C0C0C0;
-    /* Slate Grey for icons */
 }
 
 /* Latest News Section */
+
 /* Styles for the Latest News section of the website */
 .latest-news {
     background-color: #F5F5F5;
