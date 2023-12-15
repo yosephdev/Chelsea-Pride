@@ -464,16 +464,16 @@ These issues were systematically resolved to enhance the overall functionality, 
 
 [Back to Top](#table-of-contents)
 
-# Deployment
+## Deployment
 
-The Chelsea Pride website was deployed using GitHub Pages with the following steps:
+The Chelsea Pride website was deployed using GitHub Pages. Follow these steps:
 
-- Navigate to the repository on GitHub and click 'Settings'.
-- Select 'Pages' from the side navigation menu.
-- Choose the 'main' branch under the 'Source' dropdown menu.
-- Click the 'Save' button.
-- The website is now live and accessible at [Chelsea Pride Website](https://yosephdev.github.io/Chelsea-Pride).
-- Future changes can be made by committing and pushing updates to GitHub, which will automatically reflect on the live site.
+- Navigate to the repository on GitHub and click **Settings**.
+- Select **Pages** from the side navigation menu.
+- Choose the **main** branch under the **Source** dropdown menu.
+- Click the **Save** button.
+
+The website is now live and accessible at [https://yosephdev.github.io/Chelsea-Pride](https://yosephdev.github.io/Chelsea-Pride).
 
 [Back to Top](#table-of-contents)
 
