@@ -239,7 +239,7 @@ main a:hover,
 
 /* Featured Section - Styles for the featured content area */
 .featured-content {
-    background: url(../images/stamford-bridge.jpg) no-repeat center/cover;
+    background: url(../images/stamford-bridge.png) no-repeat center/cover;
     display: flex;
     flex-wrap: wrap;
     margin-top: 3rem;
