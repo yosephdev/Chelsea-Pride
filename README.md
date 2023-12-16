@@ -33,6 +33,9 @@ Welcome to Chelsea Pride, the definitive online destination for fans of Chelsea 
   - [Libraries \& Frameworks](#libraries--frameworks)
   - [Tools](#tools)
 - [Testing](#testing)
+  - [HTML](#html)
+  - [CSS](#css)
+  - [Accessbility](#accessbility)
   - [Encountered Issues and Resolutions](#encountered-issues-and-resolutions)
 - [Deployment](#deployment)
 - [Credits](#credits)
@@ -231,6 +234,20 @@ Below are the wireframes for "Chelsea Pride" across different devices:
 # Testing
 
 The Chelsea Pride website was rigorously tested to ensure it meets its goals and provides an optimal user experience. Designed responsively, it adapts seamlessly across various devices, ensuring clear and sharp display of content. The site is user-friendly, enabling easy navigation and communication through forms and social media links, while maintaining simplicity and conciseness in content.
+
+## HTML
+
+- No errors were returned when passing through the officail W3C validator.
+
+## CSS
+
+- No errors were returned when passing through the officail (Jigsaw) validator.
+
+## Accessbility
+
+- I confirmed that the colors and the fonts chosen are easy o read and accessible by running ti through the Lighthouse in DevTools.
+
+![Lighthouse report](assets/images/accessbility.JPG)
 
 ## Encountered Issues and Resolutions
 
