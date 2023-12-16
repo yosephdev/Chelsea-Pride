@@ -258,7 +258,6 @@ main a:hover,
     flex-basis: 20rem;
     flex-grow: 1;
     border: 2px solid #C0C0C0;
-
 }
 
 /* Hover Effects for featured content divs */
@@ -354,8 +353,13 @@ main a:hover,
 }
 
 .video-iframe {
-    width: 2.8rem;
-    height: 2rem;
+    width: 100%;
+    height: auto;
+}
+
+.video-placeholder {
+    width: 100%;
+    position: relative;
 }
 
 /* Styles for the Team History section */
