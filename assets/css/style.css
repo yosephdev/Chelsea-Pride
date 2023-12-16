@@ -333,7 +333,7 @@ main a:hover,
 }
 
 .read-more-btn {
-    background-color: #D4AF37;
+    background-color: #004A7C;
     color: #FFFFFF;
     border: none;
     padding: 1rem 2rem;
@@ -344,7 +344,7 @@ main a:hover,
 }
 
 .read-more-btn:hover {
-    background-color: #b3962f;
+    background-color: #003366;
 }
 
 .news-image {
