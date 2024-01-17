@@ -2,7 +2,7 @@
 
 Welcome to Chelsea Pride, the definitive online destination for fans of Chelsea Football Club. This website offers a dynamic platform for accessing the latest club news, player updates, and historical insights. It's designed to foster a sense of community among fans, enabling easy engagement through interactive features and social media integration.
 
-![Check out how Chelsea Pride looks on different devices](assets/images/Responsive-mockup.jpg)
+![Check out how Chelsea Pride looks on different devices](assets/images/responsive-mockup.jpg)
 
 ## Table of Contents
 
