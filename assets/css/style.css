@@ -336,8 +336,8 @@ main a:hover,
     padding: 1rem 2rem;
     border-radius: 4px;
     cursor: pointer;
+    text-decoration: none;
     transition: background-color 0.3s ease;
-
 }
 
 .read-more-btn:hover {
