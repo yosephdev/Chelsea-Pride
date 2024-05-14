@@ -82,7 +82,7 @@ Welcome to Chelsea Pride, the definitive online destination for fans of Chelsea 
 
 ## Colors
 
-The color palette for Chelsea Pride has been carefully selected to align with Chelsea FC's branding and to ensure optimal contrast and visual appeal. The colors were chosen using [Colors.co](https://colors.co/ "Colors"), a tool that helps generate harmonious color schemes.
+The color palette for Chelsea Pride has been carefully selected to align with Chelsea FC's branding and to ensure optimal contrast and visual appeal. The colors were chosen using [Coolors.co](https://coolors.co/ "Colors"), a tool that helps generate harmonious color schemes.
 
 ![Colour Palette](docs/color-palette.png)
 
